@@ -1,0 +1,58 @@
+.works {
+    z-index: -2;
+    opacity: 1;
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-color: #F8E1B8ff;
+
+}
+
+.works-central{
+    padding: 7em;
+    z-index: -2;
+    opacity: 1;
+    position: fixed;
+    left: 20%;
+    right: 20%;
+    min-height: 100%;
+    width: 60%;
+    background-color: #C0D1DFff;
+
+}
+
+
+.works-h1{
+    font-family: MyOpen;
+    font-size: 5em;
+    background-image: url('../../img/visage1.png');
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 1.5em;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.works-menu {
+    
+    writing-mode: vertical-rl;
+    min-height: 95%;
+    max-height: 100%;
+    position: fixed; /* If you want text inside of it */
+    text-align: justify;
+    text-justify: inter-word;
+    
+    
+}
+
+.menu-link {
+    color:white;
+    font-size: 1.2em;
+    font-family: MyOpen;
+    margin-top: 1.5em;
+}
+
+.menu-link:hover{
+    text-decoration: line-through;
+    color: white
+}

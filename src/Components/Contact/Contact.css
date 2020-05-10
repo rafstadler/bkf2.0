@@ -1,0 +1,33 @@
+.contact {
+    z-index: -2;
+    opacity: 1;
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-color: #AEA189ff;
+}
+
+.contact-central{
+    padding: 7em;
+    z-index: -1;
+    opacity: 1;
+    position: fixed;
+    left: 20%;
+    right: 20%;
+    min-height: 100%;
+    width: 60%;
+    background-color: #731721ff;
+
+}
+
+
+.contact-h1{
+    font-family: MyOpen;
+    font-size: 5em;
+    background-image: url('../../img/visage1.png');
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 1.5em;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}

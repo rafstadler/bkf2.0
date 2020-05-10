@@ -1,0 +1,33 @@
+.exhib {
+    z-index: -2;
+    opacity: 1;
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-color: #731721ff;
+}
+
+.exhib-central{
+    padding: 7em;
+    z-index: -1;
+    opacity: 1;
+    position: fixed;
+    left: 20%;
+    right: 20%;
+    min-height: 100%;
+    width: 60%;
+    background-color: #F8E1B8ff;
+
+}
+
+
+.exhib-h1{
+    font-family: MyOpen;
+    font-size: 5em;
+    background-image: url('../../img/salle.png');
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 1.5em;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
