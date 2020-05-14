@@ -31,3 +31,36 @@
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
+
+.exhib-h1-soon {
+    writing-mode: vertical-lr;
+    font-family: MyOpen;
+    font-size: 5em;
+    
+    background-image: url('../../img/salle.png');
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+    
+}
+
+.exhib-description-soon {
+    padding: 1em;
+    color: white;
+    font-family: MyOswald;  
+    background-color: #731721ff;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.soon-div {
+    padding-top: 10em
+}
+
+.exhib-carousel {
+    width: 90% ;
+    background-color: #731721ff;
+    padding: 1em;
+}

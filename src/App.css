@@ -26,26 +26,34 @@
 }
 
 .fade-enter {
-  opacity: 0.01;
+    opacity: 0.01;
 }
 
 .fade-enter.fade-enter-active {
-  opacity: 1;
-  transition: opacity 500ms ease-in;
+    opacity: 1;
+    transition: opacity 500ms ease-in;
 }
 
 .fade-leave {
-  opacity: 1;
+    opacity: 1;
 }
 
 .fade-leave.fade-leave-active {
-  opacity: 0.01;
-  transition: opacity 300ms ease-in;
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
 }
 
-.page {
-  position: absolute;
-  left: 0;
-  right: 0;
-    
+.header-drop {
+    opacity:1;
+    color:white;
+    font-family:MyOpen;
+    font-size:16px;
+    mix-blend-mode:normal;
+    text-align: right
+}
+
+#nav-dropdown{
+    color: white;
+    right: 0;
+    left: auto;
 }

@@ -31,3 +31,26 @@
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
+
+.contact-h1-nudes {
+    writing-mode: vertical-lr;
+    font-family: MyOpen;
+    font-size: 5em;
+    
+    background-image: url('../../img/visage1.png');
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+    
+}
+
+.contact-description-nudes {
+    padding: 1em;
+    color: white;
+    font-family: MyOswald;  
+    background-color: #AEA189ff;
+    text-align: justify;
+    text-justify: inter-word;
+}

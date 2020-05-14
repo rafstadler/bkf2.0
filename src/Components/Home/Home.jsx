@@ -21,6 +21,7 @@ class Home extends Component {
 render() {
     return (
         <div>
+ 
             <video autoplay="autoplay" loop="loop" muted className="video">
                 <source src={require('../../img/acceuilbq.mp4')} type="video/mp4"/>
             </video>
