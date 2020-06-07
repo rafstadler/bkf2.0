@@ -17,15 +17,18 @@ class Exhib extends Component {
 
     render() {
         return (
-            <div>
+            <div className='page'>
                 <div className='exhib'></div>
                 <div className='exhib-central'></div>
 
                 <Container fluid align='center'>
+                    <h2>ce site est en cours de développement et sera bientôt achevé</h2>
                     <Row className='soon-div'>
+                        
                         <Col  xs={{span:1,offset:0}} md={{span:2,offset:2}}>
                             <div className='soon' >
-                                <h1 className='exhib-h1-soon' align='center'>SCEDULED</h1>
+                                
+                                <h1 className='exhib-h1-soon' align='center'>SCHEDULED</h1>
                             </div>
 
                         </Col>
@@ -34,8 +37,6 @@ class Exhib extends Component {
                                 dj cioqjd cxiojze sdic zeiucd xzeuidhs cxieodjs cpxiuoehd vciujh rdiufh czeiukqshdf xiuh eiudhsc xizeldkushd xi odijzojd oi coij eoij oiehjz iu hfviuh zeiuh fiu ziedj xoqhzuzidjh iued ci eiv hieuhvkjndckjsnck zej o nci nc ke ck eic kuhjsb vcij;hs nidkjhcnx kq;ujhkj d ukmudj nduis kjdicu xuskd yux kzjqsdydjxn sjdjs fndxuhqjsh sudx  zsij xqks jd xizks.
                             </div>
                         </Col>
-
-
                     </Row>
                     <Row>
                             <Col>
@@ -48,7 +49,9 @@ class Exhib extends Component {
                             
                             <Carousel showArrows={true} className='exhib-carousel'>
                                 <div>
-                                    <img src={require('../../img/nuage.png')} />  
+                                    <video autoplay="autoplay" loop="loop" muted className="video">
+                <source src={require('../../img/acceuilbq.mp4')} type="video/mp4"/>
+            </video>
                                 </div>
                                 <div>
                                     <img src={require('../../img/nuage.png')} />      

@@ -11,20 +11,24 @@ class WAW extends Component {
     }
     render() {
         return (
-            <div>
+            <div className='page'>
                 <div className='waw'></div>
                 <div className='waw-central'></div>
 
                 <Container align='center' fluid>
 
+                    <h2>ce site est en cours de développement et sera bientôt achevé</h2>
                     <Row>
                         <Col className='test'>
                             <h1 className='waw-h1  d-none d-sm-none d-lg-block' align='center'>BREAKFAST</h1>
                             <h1 className='waw-h1-mobile d-lg-none d-sm-block' align='center'>BREAKFAST</h1>
+                            
+                            
                         </Col>
                     </Row>
                     <Row>
                         <Col sm={{ span: 7, offset: 4 }}><AnimatedOnScroll animationIn='fadeInUp' isVisible={true}>
+                            
                             <div className='waw-intro'>
                                 Breakfast, c’est dans un premier temps une atmosphère, une façon très particulière de vivre sa vie. Mais c’est aussi une vision du monde et des points communs qui ont rassemblé un groupe d’amis en vue de construire un <b className='waw-b'>collectif créatif</b> mêlant <b className='waw-b'>art</b> et <b className='waw-b'>musique</b>.
                             </div>

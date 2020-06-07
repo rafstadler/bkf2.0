@@ -18,7 +18,8 @@ class Contact extends Component {
                 <div className='contact-central'></div>
                 <div className='page'>
 
-                    <Container>
+                    <Container fluid align='center'>
+                        <h2>ce site est en cours de développement et sera bientôt achevé</h2>
                         <h1 className='contact-h1' align='center'>CONTACT</h1>
                         <Row>
                             <Col  xs={{span:1,offset:0}} md={{span:2,offset:2}}>

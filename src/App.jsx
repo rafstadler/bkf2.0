@@ -41,7 +41,7 @@ class App extends Component {
                                 <Col sm={2} className='d-none d-sm-none d-lg-block'><Link to='/' className='nav-brand'> Breakfast </Link></Col>
                                 <Col sm={8} className='d-lg-none d-sm-block'><Link to='/' className='nav-brand'> Breakfast </Link></Col>
                                 <Col sm={2} className='d-none d-sm-none d-lg-block'><Link to='/who_are_we' className='nav-link' style={this.state.page.pathname==="/who_are_we" ? {'text-decoration':'line-through underline'} : {}}>Who Are We</Link></Col>
-                                <Col sm={2} className='d-none d-sm-none d-lg-block'><Link to='/works' className='nav-link' style={this.state.page.pathname==="/works" ? {'text-decoration':'line-through underline'} : {}}> Works </Link></Col>
+                                <Col sm={2} className='d-none d-sm-none d-lg-block'><Link to='/works#clothes' className='nav-link' style={this.state.page.pathname==="/works" ? {'text-decoration':'line-through underline'} : {}}> Works </Link></Col>
                                 <Col sm={2} className='d-none d-sm-none d-lg-block'><Link to='/exhib' className='nav-link' style={this.state.page.pathname==="/exhib" ? {'text-decoration':'line-through underline'} : {}}> Exhibitions </Link></Col>
                                 <Col sm={2} className='d-none d-sm-none d-lg-block'><Link to='/contact' className='nav-link' style={this.state.page.pathname==="/contact" ? {'text-decoration':'line-through underline'} : {}}> Contacts </Link></Col>
                                 <Col sm={2} className='d-none d-sm-none d-lg-block'><a target="_blank" rel="noopener noreferrer" href='https://www.instagram.com/breakfast_paris/' className='nav-link'> Instagram </a></Col>
@@ -50,10 +50,10 @@ class App extends Component {
                                 <Col sm={2} className="header-drop d-lg-none d-sm-block">
                                     <NavDropdown alignRight title={this.props.page} id="nav-dropdown">
                                         <NavDropdown.Item><Link to='/who_are_we' className='nav-link' style={this.state.page.pathname==="/who_are_we" ? {'text-decoration':'line-through underline','color':'black'} : {'color':'black'}}>Who Are We</Link></NavDropdown.Item>
-                                        <NavDropdown.Item><Link to='/works' className='nav-link' style={this.state.page.pathname==="/works" ? {'text-decoration':'line-through underline','color':'black'} : {'color':'black'}}>Works</Link></NavDropdown.Item>
+                                        <NavDropdown.Item><Link to='/works#clothes' className='nav-link' style={this.state.page.pathname==="/works" ? {'text-decoration':'line-through underline','color':'black'} : {'color':'black'}}>Works</Link></NavDropdown.Item>
                                         <NavDropdown.Item><Link to='/exhib' className='nav-link' style={this.state.page.pathname==="/exhib" ? {'text-decoration':'line-through underline','color':'black'} : {'color':'black'}}>Exhibitions</Link></NavDropdown.Item>
                                         <NavDropdown.Item><Link to='/contact' className='nav-link' style={this.state.page.pathname==="/contact" ? {'text-decoration':'line-through underline','color':'black'} : {'color':'black'}}>Contacts</Link></NavDropdown.Item>
-                                        <NavDropdown.Item><a href='https://www.instagram.com/breakfast_paris/' className='nav-link' style={{'color':'black'}}>Instagram</a></NavDropdown.Item>
+                                        <NavDropdown.Item><Link to='https://www.instagram.com/breakfast_paris/' className='nav-link' style={{'color':'black'}}>Instagram</Link></NavDropdown.Item>
 
                                     </NavDropdown>
                                 </Col>

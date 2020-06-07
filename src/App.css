@@ -57,3 +57,10 @@
     right: 0;
     left: auto;
 }
+
+.page {
+  position: absolute;
+  left: 0;
+  right: 0;
+    
+}

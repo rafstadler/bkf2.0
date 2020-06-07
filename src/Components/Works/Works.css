@@ -4,7 +4,7 @@
     position: fixed;
     min-width: 100%;
     min-height: 100%;
-    background-color: #F8E1B8ff;
+    background-color: #b0adceff;
 
 }
 
@@ -24,7 +24,7 @@
 
 .works-h1-mobile{
     font-family: MyOpen;
-    background-image: url('../../img/visage1.png');
+    background-image: url('../../img/nude.jpg');
     background-attachment: fixed;
     background-size: cover;
     padding-top: 2em;
@@ -35,7 +35,7 @@
 .works-h1{
     font-family: MyOpen;
     font-size: 500%;
-    background-image: url('../../img/visage1.png');
+    background-image: url('../../img/nude.jpg');
     background-attachment: fixed;
     background-size: cover;
     padding-top: 1.5em;
@@ -57,7 +57,12 @@
 }
 
 .menu-link {
-    color:white;
+    background-image: url('../../img/nude.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 1.5em;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
     font-size: 1.2em;
     font-family: MyOpen;
     margin-top: 1.5em;
@@ -77,19 +82,19 @@
     padding: 1em;
     color: white;
     font-family: MyOswald;  
-    background-color: #F8E1B8ff;
+    background-color: #b0adceff;
     text-align: justify;
     text-justify: inter-word;
 }
 
 .visu {
-    background-color: #F8E1B8ff;
+    background-color: #b0adceff;
     padding: 1em;
     margin-top: 5em;
 }
 
 .visu-media {
-    background-color: #F8E1B8ff;
+    background-color: #b0adceff;
     
     margin-top: 5em;
 

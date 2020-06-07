@@ -71,10 +71,13 @@ scrollToLocation = () => {
 
 
                     <Container align='center' fluid>
+                        <h2>ce site est en cours de développement et sera bientôt achevé</h2>
                         <Row>
                             <Col id="clothes">
                                 <h1 className='works-h1-mobile d-lg-none d-sm-block' align='center'>CLOTHES</h1>
                                 <h1 className='works-h1 d-none d-sm-none d-lg-block' align='center'>CLOTHES</h1>
+                                
+                                
                             </Col>
                         </Row>
                         
