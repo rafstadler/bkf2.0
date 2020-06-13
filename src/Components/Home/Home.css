@@ -12,15 +12,25 @@
 }
 
 .caption {
-    font-family: 'Germa';
-    color:white;
-    font-size: 7em;
-    font-weight: bold;
+    
     position: absolute;
     top : 40%;
     max-width: 100%;
     left: 0;
     right: 0;
+}
+
+.home-title {
+    font-family: 'Germa';
+    color:white;
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.getstarted {
+    font-family: MyOpen;
+    font-size: 2em;
+    color:white;
 }
 
 .home-footer {

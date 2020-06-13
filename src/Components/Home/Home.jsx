@@ -11,6 +11,8 @@ const charPoses = {
         }
     };
 
+
+
 class Home extends Component {
     
     constructor(props){
@@ -26,7 +28,9 @@ render() {
                 <source src={require('../../img/acceuilbq.mp4')} type="video/mp4"/>
             </video>
             <div className='caption page' align='center'>
-                <SplitText  initialPose="exit" pose="enter" charPoses={charPoses}>Breakfast</SplitText>
+                <SplitText  className="home-title" initialPose="exit" pose="enter" charPoses={charPoses}>Breakfast</SplitText>
+                <br></br>
+             
             </div>
             
 

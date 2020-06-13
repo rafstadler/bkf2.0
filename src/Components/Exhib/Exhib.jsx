@@ -22,13 +22,14 @@ class Exhib extends Component {
                 <div className='exhib-central'></div>
 
                 <Container fluid align='center'>
-                    <h2>ce site est en cours de développement et sera bientôt achevé</h2>
                     <Row className='soon-div'>
-                        
+
                         <Col  xs={{span:1,offset:0}} md={{span:2,offset:2}}>
                             <div className='soon' >
-                                
-                                <h1 className='exhib-h1-soon' align='center'>SCHEDULED</h1>
+
+                                <h1 className='exhib-h1-soon d-none d-sm-block' align='center'>SCHEDULED</h1>
+                                <h1 className='exhib-h1-soon-mobile d-sm-none' align='center'>SCHEDULED</h1>
+
                             </div>
 
                         </Col>
@@ -39,20 +40,27 @@ class Exhib extends Component {
                         </Col>
                     </Row>
                     <Row>
-                            <Col>
-                                 <h1 className='exhib-h1' align='center'>2019</h1>
-                            </Col>
-                        </Row>
+                        <Col>
+                            <h1 className='exhib-h1 d-none d-sm-block' align='center'>2019</h1>
+                            <h1 className='exhib-h1-mobile d-sm-none' align='center'>2019</h1>
+                        </Col>
+                    </Row>
                     <Row>
                         <Col></Col>
                         <Col>
-                            
+
                             <Carousel showArrows={true} className='exhib-carousel'>
-                                <div>
-                                    <video autoplay="autoplay" loop="loop" muted className="video">
-                <source src={require('../../img/acceuilbq.mp4')} type="video/mp4"/>
-            </video>
-                                </div>
+                            
+
+                                    {/* 
+                                        <div>
+                                        <video autoplay="autoplay" loop="loop" muted className="video">
+                                            <source src={require('../../img/acceuilbq.mp4')} type="video/mp4"/>
+                                        </video>
+                                        </div>
+                                    */}
+
+                              
                                 <div>
                                     <img src={require('../../img/nuage.png')} />      
                                 </div>
@@ -75,19 +83,22 @@ class Exhib extends Component {
 
                     <Row>
                         <Col>
-                            <h1 className='exhib-h1' align='center'>2018</h1>
+                            <h1 className='exhib-h1 d-none d-sm-block' align='center'>2018</h1>
+                            <h1 className='exhib-h1-mobile d-sm-none' align='center'>2018</h1>
                         </Col>
                     </Row>
 
                     <Row>
                         <Col>
-                            <h1 className='exhib-h1' align='center'>2017</h1>
+                            <h1 className='exhib-h1 d-none d-sm-block' align='center'>2017</h1>
+                            <h1 className='exhib-h1-mobile d-sm-none' align='center'>2017</h1>
                         </Col>
                     </Row>
 
                     <Row>
                         <Col>
-                            <h1 className='exhib-h1' align='center'>2016</h1>
+                            <h1 className='exhib-h1 d-none d-sm-block' align='center'>2016</h1>
+                            <h1 className='exhib-h1-mobile d-sm-none' align='center'>2016</h1>
                         </Col>
                     </Row>
 

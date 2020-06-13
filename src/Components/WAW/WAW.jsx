@@ -16,12 +16,10 @@ class WAW extends Component {
                 <div className='waw-central'></div>
 
                 <Container align='center' fluid>
-
-                    <h2>ce site est en cours de développement et sera bientôt achevé</h2>
                     <Row>
                         <Col className='test'>
-                            <h1 className='waw-h1  d-none d-sm-none d-lg-block' align='center'>BREAKFAST</h1>
-                            <h1 className='waw-h1-mobile d-lg-none d-sm-block' align='center'>BREAKFAST</h1>
+                            <h1 className='waw-h1  d-none d-sm-block' align='center'>BREAKFAST</h1>
+                            <h1 className='waw-h1-mobile d-sm-none' align='center'>BREAKFAST</h1>
                             
                             
                         </Col>
@@ -38,8 +36,8 @@ class WAW extends Component {
 
                     <Row>
                         <Col className='test'>
-                            <h1 className='waw-h1 d-none d-sm-none d-lg-block' align='center'>LES FONDATEURS</h1>
-                            <h1 className='waw-h1-mobile d-lg-none d-sm-block' align='center'>LES FONDATEURS</h1>
+                            <h1 className='waw-h1 d-none d-sm-block' align='center'>LES FONDATEURS</h1>
+                            <h1 className='waw-h1-mobile d-sm-none' align='center'>LES FONDATEURS</h1>
                         </Col>
                     </Row>
 
@@ -64,6 +62,14 @@ class WAW extends Component {
                     </Row>
 
                     <Row className="fondateur">
+                        
+                        <Col className='d-md-none' md={4}>
+                            <AnimatedOnScroll animationIn='fadeInUpBig' animationInDuration='1200' isVisible={true}>
+                                <div className='waw-fondateur'>
+                                    <h2 className='waw-h2'>  Emota,</h2>membre fondateur de la marque Breakfast Paris, il est un artiste accompli en tant que <Link to="/works#music"><b className='waw-b'>chanteur</b></Link>, <Link to="/works#painting"><b className='waw-b'>peintre</b></Link> et <Link to="/works#tattoo"><b className='waw-b'>tatoueur</b></Link>. Il réalise des tableaux s’inscrivant dans le style cubisme tout en s’inspirant de masques africains, de forme géométrique qu’il retravaille à sa manière dans un mélange formant des personnages défigurés tout cela afin de créer son propre style. Emota puise son inspiration principalement dans la faune et la flore tout en les ralliant à la femme et à ses personnages aux masques africains.
+                                </div>
+                            </AnimatedOnScroll>
+                        </Col>
 
                         <Col md={{ span: 6, offset: 1 }}>
                             <AnimatedOnScroll animationIn='fadeInUp' animationInDuration='1200' isVisible={true}>
@@ -74,7 +80,7 @@ class WAW extends Component {
                             </AnimatedOnScroll>
                         </Col>
 
-                        <Col md={4}>
+                        <Col className='d-none d-md-block' md={4}>
                             <AnimatedOnScroll animationIn='fadeInUpBig' animationInDuration='1200' isVisible={true}>
                                 <div className='waw-fondateur'>
                                     <h2 className='waw-h2'>  Emota,</h2>membre fondateur de la marque Breakfast Paris, il est un artiste accompli en tant que <Link to="/works#music"><b className='waw-b'>chanteur</b></Link>, <Link to="/works#painting"><b className='waw-b'>peintre</b></Link> et <Link to="/works#tattoo"><b className='waw-b'>tatoueur</b></Link>. Il réalise des tableaux s’inscrivant dans le style cubisme tout en s’inspirant de masques africains, de forme géométrique qu’il retravaille à sa manière dans un mélange formant des personnages défigurés tout cela afin de créer son propre style. Emota puise son inspiration principalement dans la faune et la flore tout en les ralliant à la femme et à ses personnages aux masques africains.
@@ -105,8 +111,8 @@ class WAW extends Component {
 
                     <Row>
                         <Col className='test'>
-                            <h1 className='waw-h1 d-none d-sm-none d-lg-block' align='center'>HISTORY</h1>
-                            <h1 className='waw-h1-mobile d-lg-none d-sm-block' align='center'>HISTORY</h1>
+                            <h1 className='waw-h1 d-none d-sm-block' align='center'>HISTORY</h1>
+                            <h1 className='waw-h1-mobile d-sm-none' align='center'>HISTORY</h1>
 
                         </Col>
                     </Row>

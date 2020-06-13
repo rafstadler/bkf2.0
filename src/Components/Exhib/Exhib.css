@@ -32,11 +32,33 @@
     -webkit-background-clip: text;
 }
 
+.exhib-h1-mobile{
+    font-family: MyOpen;
+    background-image: url('../../img/salle.png');
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 1.5em;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
 .exhib-h1-soon {
     writing-mode: vertical-lr;
     font-family: MyOpen;
     font-size: 5em;
+    background-image: url('../../img/salle.png');
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
     
+}
+
+.exhib-h1-soon-mobile {
+    writing-mode: vertical-lr;
+    font-family: MyOpen;
+    padding-left: 1em;
     background-image: url('../../img/salle.png');
     background-attachment: fixed;
     background-size: cover;
@@ -62,5 +84,5 @@
 .exhib-carousel {
     width: 90% ;
     background-color: #e2cbbeff;
-    padding: 1em;
+    padding: 2em;
 }

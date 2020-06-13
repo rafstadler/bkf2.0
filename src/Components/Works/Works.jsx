@@ -71,17 +71,14 @@ scrollToLocation = () => {
 
 
                     <Container align='center' fluid>
-                        <h2>ce site est en cours de développement et sera bientôt achevé</h2>
                         <Row>
                             <Col id="clothes">
-                                <h1 className='works-h1-mobile d-lg-none d-sm-block' align='center'>CLOTHES</h1>
-                                <h1 className='works-h1 d-none d-sm-none d-lg-block' align='center'>CLOTHES</h1>
+                                <h1 className='works-h1-mobile d-sm-none' align='center'>CLOTHES</h1>
+                                <h1 className='works-h1 d-none d-sm-block' align='center'>CLOTHES</h1>
                                 
                                 
                             </Col>
-                        </Row>
-                        
-                        
+                        </Row>    
                         <Row className="oeuvre">
                             <Col className='works-description' md={{ span: 4, offset: 1 }}>
                                 <AnimatedOnScroll animationIn='fadeInUpBig' animationInDuration='1200' isVisible={true}>
@@ -108,6 +105,19 @@ scrollToLocation = () => {
                         </Row>
 
                         <Row className="oeuvre">
+                            
+                            <Col className='works-description d-md-none' md={4}>
+                                <AnimatedOnScroll animationIn='fadeInUpBig' animationInDuration='1200' isVisible={true}>
+                                    <div>
+                                        <h2 className='works-h2-left'>-Triptyque de Nuages-</h2>
+                                        <h2 className='works-h2-left'>- Ludovic 2019 -</h2>
+                                        <div className='works-oeuvre'>
+                                            dj cioqjd cxiojze sdic zeiucd xzeuidhs cxieodjs cpxiuoehd vciujh rdiufh czeiukqshdf xiuh eiudhsc xizeldkushd xi odijzojd oi coij eoij oiehjz iu hfviuh zeiuh fiu ziedj xoqhzuzidjh iued ci eiv hieuhvkjndckjsnck zej o nci nc ke ck eic kuhjsb vcij;hs nidkjhcnx kq;ujhkj d ukmudj nduis kjdicu xuskd yux kzjqsdydjxn sjdjs fndxuhqjsh sudx  zsij xqks jd xizks.
+                                        </div>
+
+                                    </div>
+                                </AnimatedOnScroll>
+                            </Col>
 
                             <Col md={{ span: 6, offset: 1 }}>
                                 <AnimatedOnScroll animationIn='fadeInUp' animationInDuration='1200' isVisible={true}>
@@ -117,7 +127,7 @@ scrollToLocation = () => {
 
                                 </AnimatedOnScroll>
                             </Col>
-                            <Col className='works-description' md={4}>
+                            <Col className='works-description d-none d-md-block' md={4}>
                                 <AnimatedOnScroll animationIn='fadeInUpBig' animationInDuration='1200' isVisible={true}>
                                     <div>
                                         <h2 className='works-h2-left'>-Triptyque de Nuages-</h2>
@@ -134,8 +144,8 @@ scrollToLocation = () => {
                         </Row>
                         <Row>
                             <Col id="painting">
-                                <h1 className='works-h1 d-none d-sm-none d-lg-block' align='center'>PAINTING</h1>
-                                <h1 className='works-h1-mobile d-lg-none d-sm-block' align='center'>PAINTING</h1>
+                                <h1 className='works-h1 d-none d-sm-block' align='center'>PAINTING</h1>
+                                <h1 className='works-h1-mobile d-sm-none' align='center'>PAINTING</h1>
                             </Col>
                         </Row>
                         
@@ -165,8 +175,21 @@ scrollToLocation = () => {
                         </Row>
 
                         <Row className="oeuvre">
+                            
+                            <Col className='d-md-none works-description' md={4}>
+                                <AnimatedOnScroll animationIn='fadeInUpBig' animationInDuration='1200' isVisible={true}>
+                                    <div>
+                                        <h2 className='works-h2-left'>-Triptyque de Nuages-</h2>
+                                        <h2 className='works-h2-left'>- Ludovic 2019 -</h2>
+                                        <div className='works-oeuvre'>
+                                            dj cioqjd cxiojze sdic zeiucd xzeuidhs cxieodjs cpxiuoehd vciujh rdiufh czeiukqshdf xiuh eiudhsc xizeldkushd xi odijzojd oi coij eoij oiehjz iu hfviuh zeiuh fiu ziedj xoqhzuzidjh iued ci eiv hieuhvkjndckjsnck zej o nci nc ke ck eic kuhjsb vcij;hs nidkjhcnx kq;ujhkj d ukmudj nduis kjdicu xuskd yux kzjqsdydjxn sjdjs fndxuhqjsh sudx  zsij xqks jd xizks.
+                                        </div>
 
-                            <Col md={{ span: 6, offset: 1 }}>
+                                    </div>
+                                </AnimatedOnScroll>
+                            </Col>
+
+                            <Col  md={{ span: 6, offset: 1 }}>
                                 <AnimatedOnScroll animationIn='fadeInUp' animationInDuration='1200' isVisible={true}>
                                     <div>
                                         <Image className='visu' src={require('../../img/nuage.png')} fluid></Image>
@@ -174,7 +197,7 @@ scrollToLocation = () => {
 
                                 </AnimatedOnScroll>
                             </Col>
-                            <Col className='works-description' md={4}>
+                            <Col className=' d-none d-md-block works-description' md={4}>
                                 <AnimatedOnScroll animationIn='fadeInUpBig' animationInDuration='1200' isVisible={true}>
                                     <div>
                                         <h2 className='works-h2-left'>-Triptyque de Nuages-</h2>
@@ -191,8 +214,8 @@ scrollToLocation = () => {
                         </Row>
                         <Row>
                             <Col id="music">
-                                <h1 className='works-h1 d-none d-sm-none d-lg-block' align='center'>MUSIC</h1>
-                                <h1 className='works-h1-mobile d-lg-none d-sm-block' align='center'>MUSIC</h1>
+                                <h1 className='works-h1 d-none d-sm-block' align='center'>MUSIC</h1>
+                                <h1 className='works-h1-mobile d-sm-none' align='center'>MUSIC</h1>
                             </Col>
                         </Row>
                         
@@ -260,14 +283,14 @@ scrollToLocation = () => {
                         </Row>
                         <Row>
                             <Col id="tattoo">
-                                <h1 className='works-h1 d-none d-sm-none d-lg-block' align='center'>TATOUAGE</h1>
-                                <h1 className='works-h1-mobile d-lg-none d-sm-block' align='center'>TATOUAGE</h1>
+                                <h1 className='works-h1 d-none d-sm-block' align='center'>TATOUAGE</h1>
+                                <h1 className='works-h1-mobile d-sm-none' align='center'>TATOUAGE</h1>
                             </Col>
                         </Row>
                         <Row>
                             <Col id="dance">
-                                <h1 className='works-h1 d-none d-sm-none d-lg-block' align='center'>DANCE</h1>
-                                <h1 className='works-h1-mobile d-lg-none d-sm-block' align='center'>DANCE</h1>
+                                <h1 className='works-h1 d-none d-sm-block' align='center'>DANCE</h1>
+                                <h1 className='works-h1-mobile d-sm-none' align='center'>DANCE</h1>
                             </Col>
                         </Row>
                         <Row>
