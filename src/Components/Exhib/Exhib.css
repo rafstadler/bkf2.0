@@ -68,6 +68,10 @@
     
 }
 
+.expo{
+    margin-bottom: 1em;
+}
+
 .exhib-description-soon {
     padding: 1em;
     color: white;
@@ -75,6 +79,12 @@
     background-color: #e2cbbeff;
     text-align: justify;
     text-justify: inter-word;
+}
+
+.exhib-description {
+    padding-top: 7em;
+    padding-right: 3em;
+    padding-left: 3em;
 }
 
 .soon-div {

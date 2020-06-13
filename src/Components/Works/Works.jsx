@@ -75,8 +75,7 @@ scrollToLocation = () => {
                             <Col id="clothes">
                                 <h1 className='works-h1-mobile d-sm-none' align='center'>CLOTHES</h1>
                                 <h1 className='works-h1 d-none d-sm-block' align='center'>CLOTHES</h1>
-                                
-                                
+                                 
                             </Col>
                         </Row>    
                         <Row className="oeuvre">

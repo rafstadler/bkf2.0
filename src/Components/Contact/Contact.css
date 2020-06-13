@@ -22,18 +22,7 @@
 
 
 .contact-h1{
-    font-family: MyOpen;
-    font-size: 5em;
-    background-image: url('../../img/visage1.png');
-    background-attachment: fixed;
-    background-size: cover;
-    padding-top: 1.5em;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-}
-
-.contact-h1-nudes {
-    writing-mode: vertical-lr;
+   writing-mode: vertical-lr;
     font-family: MyOpen;
     font-size: 5em;
     
@@ -42,11 +31,27 @@
     background-size: cover;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-
-    
 }
 
-.contact-description-nudes {
+.contact-h1-mobile{
+   writing-mode: vertical-lr;
+    font-family: MyOpen;
+    font-size:3em;
+    background-image: url('../../img/visage1.png');
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.contact-body {
+    padding-top: 2em;
+}
+
+.contact-item {
+    padding-top: 1em;
+}
+.contact-description {
     padding: 1em;
     color: white;
     font-family: MyOswald;  
