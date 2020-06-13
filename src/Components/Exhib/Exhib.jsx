@@ -50,9 +50,9 @@ class Exhib extends Component {
                         <Col className='exhib-description' md={{ span: 4, offset: 1 }}>
                             <AnimatedOnScroll animationIn='fadeInUpBig' animationInDuration='1200' isVisible={true}>
                                     <div>
-                                        <h2 className='works-h2'>-Triptyque de Nuages-</h2>
-                                        <h2 className='works-h2'>- Ludovic 2019 -</h2>
-                                        <div className='works-oeuvre'>
+                                        <h2 className='exhib-h2'>-Triptyque de Nuages-</h2>
+                                        <h2 className='exhib-h2'>- Ludovic 2019 -</h2>
+                                        <div className='exhib-oeuvre'>
                                             dj cioqjd cxiojze sdic zeiucd xzeuidhs cxieodjs cpxiuoehd vciujh rdiufh czeiukqshdf xiuh eiudhsc xizeldkushd xi odijzojd oi coij eoij oiehjz iu hfviuh zeiuh fiu ziedj xoqhzuzidjh iued ci eiv hieuhvkjndckjsnck zej o nci nc ke ck eic kuhjsb vcij;hs nidkjhcnx kq;ujhkj d ukmudj nduis kjdicu xuskd yux kzjqsdydjxn sjdjs fndxuhqjsh sudx  zsij xqks jd xizks.
                                         </div>
 

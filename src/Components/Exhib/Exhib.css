@@ -96,3 +96,20 @@
     background-color: #e2cbbeff;
     padding: 2em;
 }
+
+.exhib-h2 {
+    font-family: MyOpen;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
+
+.exhib-oeuvre {
+
+    padding: 1em;
+    color: white;
+    font-family: MyOswald;  
+    background-color: #e2cbbeff;
+    text-align: justify;
+    text-justify: inter-word;
+}
