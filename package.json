@@ -13,6 +13,7 @@
     "react-animated-css": "^1.2.1",
     "react-animated-css-onscroll": "^1.2.1",
     "react-bootstrap": "^1.0.1",
+    "react-device-detect": "^1.12.1",
     "react-dom": "^16.13.1",
     "react-modular-audio-player": "^1.2.0",
     "react-player": "^2.0.1",
