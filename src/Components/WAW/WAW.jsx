@@ -30,7 +30,7 @@ class WAW extends Component {
                         <Col sm={{ span: 7, offset: 4 }}><AnimatedOnScroll animationIn='fadeInUp' isVisible={true}>
                             
                             <div className='waw-intro'>
-                                Breakfast, c’est dans un premier temps une atmosphère, une façon très particulière de vivre sa vie. Mais c’est aussi une vision du monde et des points communs qui ont rassemblé un groupe d’amis en vue de construire un <b className='waw-b'>collectif créatif</b> mêlant <b className='waw-b'>art</b> et <b className='waw-b'>musique</b>.
+                                &nbsp;&nbsp;&nbsp;Breakfast, c’est dans un premier temps une atmosphère, une façon très particulière de vivre sa vie. Mais c’est aussi une vision du monde et des points communs qui ont rassemblé un groupe d’amis en vue de construire un <b className='waw-b'>collectif créatif</b> mêlant <b className='waw-b'>art</b> et <b className='waw-b'>musique</b>.
                             </div>
                             </AnimatedOnScroll></Col>
 
@@ -123,7 +123,7 @@ class WAW extends Component {
                             <Col sm={{ span: 7, offset: 1 }}><AnimatedOnScroll animationIn='fadeInUp' isVisible={true}>
 
                                 <div className='waw-history'>
-                                    BKF (abréviation de Breakfast) est <b className='waw-b'>une atmosphère </b> créée par l’ensemble des membres. Cette atmosphère est née de plusieurs lendemains de soirées. Afin de repartir sur une bonne et efficace journée, nous devions chacun prendre une tasse de thé tous ensemble autour d’une table tout en parlant de nos projets futurs et de notre avenir. <b className='waw-b'>Un rituel</b> que l’on nomme aujourd’hui comme étant le « Breakfast ». Pour nous, il est devenu nécessaire de le <b className='waw-b'>partager</b> puisqu’il est entré dans notre quotidien. 
+                                    &nbsp;&nbsp;&nbsp;Bkf (abréviation de Breakfast) est <b className='waw-b'>une atmosphère </b> créée par l’ensemble des membres. Cette atmosphère est née de plusieurs lendemains de soirées. Afin de repartir sur une bonne et efficace journée, nous devions chacun prendre une tasse de thé tous ensemble autour d’une table tout en parlant de nos projets futurs et de notre avenir. <b className='waw-b'>Un rituel</b> que l’on nomme aujourd’hui comme étant le « Breakfast ». Pour nous, il est devenu nécessaire de le <b className='waw-b'>partager</b> puisqu’il est entré dans notre quotidien. 
                                 </div>
                                 </AnimatedOnScroll></Col>
 
@@ -132,7 +132,7 @@ class WAW extends Component {
                             <Col sm={{ span: 7, offset: 4 }}><AnimatedOnScroll animationIn='fadeInUp' isVisible={true}>
 
                                 <div className='waw-history'>
-                                    Nous partageons <b className='waw-b'>ce mode de vie</b> à travers notre marque de vêtements, notre façon d’être et <b className='waw-b'>nos créations</b> qu’elles soient musicales ou artistiques.
+                                    &nbsp;&nbsp;&nbsp;Nous partageons <b className='waw-b'>ce mode de vie</b> à travers notre marque de vêtements, notre façon d’être et <b className='waw-b'>nos créations</b> qu’elles soient musicales ou artistiques.
                                 </div>
                                 </AnimatedOnScroll></Col>
 

@@ -30,6 +30,7 @@
     padding-top: 1.5em;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    letter-spacing: 0.1em;
 }
 
 .exhib-h1-mobile{
@@ -40,6 +41,8 @@
     padding-top: 1.5em;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    font-size: 280%;
+    letter-spacing: 0.1em;
 }
 
 .exhib-h1-soon {
@@ -59,6 +62,7 @@
     writing-mode: vertical-lr;
     font-family: MyOpen;
     padding-left: 1em;
+    
     background-image: url('../../img/salle.png');
     background-attachment: fixed;
     background-size: cover;
@@ -73,12 +77,15 @@
 }
 
 .exhib-description-soon {
-    padding: 1em;
+    padding: 2em;
     color: white;
     font-family: MyOswald;  
     background-color: #e2cbbeff;
     text-align: justify;
     text-justify: inter-word;
+    font-size: 110%;
+    border-radius: 3em;
+    letter-spacing: 0.05em;
 }
 
 .exhib-description {
@@ -92,19 +99,25 @@
 }
 
 .exhib-intro {
-    padding: 1em;
     color: white;
     font-family: MyOswald;  
-    margin-top: 5em;
-    background-color: #e2cbbeff;
+    margin-top: 2em;
     text-align: justify;
     text-justify: inter-word;
+    font-size: 150%;
+    line-height: 170%;
+    padding: 2em;
+    border-radius: 3em;
+    letter-spacing: 0.2em;
+    font-weight: bold;
 }
 
 .exhib-carousel {
     width: 90% ;
     background-color: #e2cbbeff;
     padding: 2em;
+    border-radius: 3em;
+    margin-top: 2em;
 }
 
 .exhib-h2 {
@@ -116,10 +129,13 @@
 
 .exhib-oeuvre {
 
-    padding: 1em;
+    padding: 2em;
     color: white;
     font-family: MyOswald;  
     background-color: #e2cbbeff;
     text-align: justify;
     text-justify: inter-word;
+    font-size: 110%;
+    border-radius: 3em;
+    letter-spacing: 0.05em;
 }

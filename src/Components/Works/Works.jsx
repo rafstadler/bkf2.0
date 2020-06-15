@@ -83,7 +83,7 @@ scrollToLocation = () => {
                             
                             <div className='clothes-intro'>
                                 
-                                C’est à travers nos premiers pulls Breakfast que nous avons pu diffuser l’image de la Bkf. À chaque soirée, tous les membres portaient leur propre pull avec la couleur qui lui correspondait le mieux. Après avoir fait des pulls, des t-shirts et des casquettes sous diverses collections, Breakfast s’agrandit et a décidé de créer ses propres vêtements en commençant par des pantalons, chemises et bobs colorés.
+                                &nbsp;&nbsp;&nbsp;C’est à travers nos premiers pulls Breakfast que nous avons pu diffuser l’image de la Bkf. À chaque soirée, tous les membres portaient leur propre pull avec la couleur qui lui correspondait le mieux. Après avoir fait des pulls, des t-shirts et des casquettes sous diverses collections, Breakfast s’agrandit et a décidé de créer ses propres vêtements en commençant par des pantalons, chemises et bobs colorés.
 
                                 </div>
                                 </AnimatedOnScroll>

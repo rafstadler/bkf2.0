@@ -23,16 +23,19 @@
 
 
 .works-h1-mobile{
+    letter-spacing: 0.1em;
     font-family: MyOpen;
     background-image: url('../../img/nude.jpg');
     background-attachment: fixed;
     background-size: cover;
     padding-top: 2em;
+    font-size: 280%;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
 
 .works-h1{
+    letter-spacing: 0.1em;
     font-family: MyOpen;
     font-size: 500%;
     background-image: url('../../img/nude.jpg');
@@ -44,15 +47,17 @@
 }
 
 .clothes-intro {
-    padding: 1em;
     color: white;
     font-family: MyOswald;  
-    margin-top: 5em;
-    margin-left: 3em;
-    margin-right: 3em;
-    background-color: #b0adceff;
+    margin-top: 2em;
     text-align: justify;
     text-justify: inter-word;
+    font-size: 150%;
+    line-height: 170%;
+    padding: 2em;
+    border-radius: 3em;
+    letter-spacing: 0.2em;
+    font-weight: bold;
     
     
 }
@@ -89,6 +94,7 @@
 
 .oeuvre {
     margin-bottom: 1em;
+    
 }
 
 .works-oeuvre {
@@ -99,12 +105,16 @@
     background-color: #b0adceff;
     text-align: justify;
     text-justify: inter-word;
+    border-radius: 3em;
+    font-size: 120%;
+    letter-spacing: 0.1em;
 }
 
 .visu {
     background-color: #b0adceff;
     padding: 2em;
     margin-top: 5em;
+    border-radius: 3em;
 }
 
 .visu-media {
@@ -116,6 +126,7 @@
     padding-top: 80%; /* 1:1 Aspect Ratio */
     position: relative; /* If you want text inside of it */
 
+    border-radius: 3em;
 
 }
 
@@ -153,10 +164,12 @@
     left: 2em;
     bottom: 2em;
     right: 2em;
+    border-radius: 3em;
 }
 
 .video-player{
    max-width: 100%;
+    border-radius: 3em;
        
 }
 #play {

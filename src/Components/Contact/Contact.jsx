@@ -21,19 +21,17 @@ class Contact extends Component {
                     <Container className="contact-body" fluid align='center'>
 
                         <Row className="contact-item">
-                            <Col  xs={{span:1,offset:2}} md={{span:2,offset:2}}>
+                            <Col  xs={{span:1,offset:0}} md={{span:2,offset:2}}>
                                
-                                <h1 className='contact-h1  d-none d-sm-block my-auto' align='center' >CONTACT</h1>
+                                <h1 className='contact-h1  d-none d-sm-block my-auto' align='center' >&nbsp;&nbsp;CONTACT</h1>
                                 <h1 className='contact-h1-mobile  d-sm-none my-auto' align='center'>CONTACT</h1>
                               
 
                             </Col>
-                            <Col xs={{span:6,offset:2}} md={{span:7,offset:0}} className='my-auto'>
+                            <Col xs={{span:8,offset:3}} md={{span:7,offset:0}} className='my-auto'>
                                 <div className='contact-description'>
-                                    Pour toute question professionnelle merci de nous envoyer un <a href="mailto:ludo_garni@hotmail.fr" className="contact-b">MAIL</a> ou nous contacter au 0786536525.<br />
+                                    Pour toute question professionnelle merci de nous envoyer un <a href="mailto:ludo_garni@hotmail.fr" className="contact-b">MAIL</a> ou nous contacter au 0786536525.<br /><br />
                                    
-                                </div>
-                                <div className='contact-description'>
                                     Raphael Stadler, membre de la BKF et web designer est aussi à l'affut de nouveaux projets et se fera un plaisir de vous aider, merci de le contacter par <a href="mailto:raph.stadler@gmail.com" className="contact-b">MAIL</a>. 
                                 </div>
                             </Col>

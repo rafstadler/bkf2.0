@@ -34,7 +34,7 @@ class Exhib extends Component {
                         <Col sm={{ span: 7, offset: 1 }}><AnimatedOnScroll animationIn='fadeInUp' isVisible={true}>
                             
                             <div className='exhib-intro'>
-                               Les expositions Breakfast ont pour but d’attirer la jeunesse dans nos évènements et de leur offrir notre vision de l’art urbain. Le but du projet étant de montrer qu’il n’y a pas de limite à la création et que chacun peut créer autant qu’il le souhaite. Que cette création soit l’essence même de l’Homme car elle permet de laisser une trace dans l’histoire. C’est ce que nous souhaitons : laisser une trace dans l’histoire en partageant notre univers aux autres. 
+                               &nbsp;&nbsp;&nbsp;Les expositions Breakfast ont pour but d’attirer la jeunesse dans nos évènements et de leur offrir notre vision de l’art urbain. Le but du projet étant de montrer qu’il n’y a pas de limite à la création et que chacun peut créer autant qu’il le souhaite. Que cette création soit l’essence même de l’Homme car elle permet de laisser une trace dans l’histoire. C’est ce que nous souhaitons : laisser une trace dans l’histoire en partageant notre univers aux autres. 
                             </div>
                             </AnimatedOnScroll></Col>
 
@@ -45,13 +45,13 @@ class Exhib extends Component {
                         <Col  xs={{span:1,offset:0}} md={{span:2,offset:2}}>
                             <div className='soon' >
 
-                                <h1 className='exhib-h1-soon d-none d-sm-block' align='center'>SCHEDULED</h1>
-                                <h1 className='exhib-h1-soon-mobile d-sm-none' align='center'>SCHEDULED</h1>
+                                <h1 className='exhib-h1-soon d-none d-sm-block' align='center'>À VENIR</h1>
+                                <h1 className='exhib-h1-soon-mobile d-sm-none' align='center'>À VENIR</h1>
 
                             </div>
 
                         </Col>
-                        <Col xs={{span:6,offset:3}} md={{span:7,offset:0}} className='my-auto'>
+                        <Col xs={{span:8,offset:3}} md={{span:7,offset:0}} className='my-auto'>
                             <AnimatedOnScroll className='exhib-description-soon' animationIn='fadeInUp' isVisible={true}>
                             
                                 La Breakfast Exhibition, organisée par ce groupe d’amis dont la plupart sont des étudiants de l’INSEEC BS Paris, consiste à vous faire découvrir cette atmosphère en mélangeant leurs peintures, leurs musiques et leur marque de vêtements à l’aide de la promotion de ses différents produits, tout cela dans une salle décorée afin qu’elle reflète au mieux leur univers.<br></br>

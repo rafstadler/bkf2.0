@@ -27,11 +27,12 @@
     background-image: url('../../img/duducloud.gif');
     background-size: cover;
     background-attachment: fixed;
-    padding-top: 2em;
+    padding-top: 1em;
     background-position: center;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     font-size: 500%;
+    letter-spacing: 0.1em;
     
 }
 
@@ -45,11 +46,10 @@
     background-position: center;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    font-size: 250%;
+    font-size: 280%;
+    letter-spacing: 0.1em;
     
 }
-
-
 
 
 .other-footer {
@@ -60,23 +60,33 @@
 }
 
 .waw-intro {
-    padding: 1em;
+  
     color: white;
     font-family: MyOswald;  
-    margin-top: 5em;
-    background-color: #C0D1DFff;
+    margin-top: 2em;
     text-align: justify;
     text-justify: inter-word;
+    font-size: 150%;
+    line-height: 170%;
+    padding: 2em;
+    border-radius: 3em;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+
 }
 
 .waw-history {
-    padding: 1em;
-    color: white;
+   color: white;
     font-family: MyOswald;  
-    margin-top: 1em;
-    background-color: #C0D1DFff;
+    margin-top: 2em;
     text-align: justify;
     text-justify: inter-word;
+    font-size: 150%;
+    line-height: 170%;
+    padding: 2em;
+    border-radius: 3em;
+    letter-spacing: 0.2em;
+    font-weight: bold;
 }
 
 .waw-div-history{
@@ -93,10 +103,15 @@
     background-color: #C0D1DFff;
     text-align: justify;
     text-justify: inter-word;
+    font-size: 120%;
+    border-radius: 3em;
+    letter-spacing: 0.1em;
+
 }
 
 .waw-h2 {
     font-family: Hijrnotes;
+    font-size: 220%;
     
 }
 
@@ -120,6 +135,7 @@
     background-color: #C0D1DFff;
     padding: 2em;
     margin-top: 5em;
+    border-radius: 3em;
 }
 
 .fondateur {
