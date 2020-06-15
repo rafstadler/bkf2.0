@@ -67,7 +67,21 @@
     font-weight: bold;
 }
 
-.contact-b {
+.contact-description-left {
+    color: white;
+    font-family: MyOswald;  
+    margin-top: 2em;
+    text-align: right;
+    text-justify: inter-word;
+    font-size: 150%;
+    line-height: 170%;
+    padding: 2em;
+    border-radius: 3em;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+}
+
+.contact-mail {
     display: inline-block;
     background-repeat: no-repeat;
     position: relative;
@@ -76,5 +90,8 @@
     background-size: cover;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    font-weight: bold;
+}
+
+.contact-mail:hover{
+    -webkit-transform: scale(1.1);
 }

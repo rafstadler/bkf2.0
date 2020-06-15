@@ -83,9 +83,10 @@
     background-color: #e2cbbeff;
     text-align: justify;
     text-justify: inter-word;
-    font-size: 110%;
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
     border-radius: 3em;
-    letter-spacing: 0.05em;
+    
 }
 
 .exhib-description {
@@ -135,7 +136,8 @@
     background-color: #e2cbbeff;
     text-align: justify;
     text-justify: inter-word;
-    font-size: 110%;
+   font-size: 1.2em;
+    letter-spacing: 0.1em;
     border-radius: 3em;
-    letter-spacing: 0.05em;
+   
 }

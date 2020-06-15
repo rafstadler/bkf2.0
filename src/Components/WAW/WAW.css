@@ -115,6 +115,8 @@
     
 }
 
+
+
 .waw-b {
     
     display: inline-block;
@@ -127,7 +129,7 @@
     -webkit-background-clip: text;
 }
 
-.waw-b:hover{
+.waw-link:hover{
     -webkit-transform: scale(1.2);
 }
 
