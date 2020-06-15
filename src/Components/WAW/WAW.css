@@ -69,6 +69,21 @@
     text-justify: inter-word;
 }
 
+.waw-history {
+    padding: 1em;
+    color: white;
+    font-family: MyOswald;  
+    margin-top: 1em;
+    background-color: #C0D1DFff;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.waw-div-history{
+    margin-top: 5em;
+    margin-bottom: 7em;
+}
+
 .waw-fondateur {
     
     padding: 1em;

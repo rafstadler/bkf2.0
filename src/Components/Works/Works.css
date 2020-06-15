@@ -43,6 +43,20 @@
     -webkit-background-clip: text;
 }
 
+.clothes-intro {
+    padding: 1em;
+    color: white;
+    font-family: MyOswald;  
+    margin-top: 5em;
+    margin-left: 3em;
+    margin-right: 3em;
+    background-color: #b0adceff;
+    text-align: justify;
+    text-justify: inter-word;
+    
+    
+}
+
 .works-menu {
     
     z-index: 2;

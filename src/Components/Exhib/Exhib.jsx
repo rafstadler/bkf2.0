@@ -22,6 +22,24 @@ class Exhib extends Component {
                 <div className='exhib-central'></div>
 
                 <Container fluid align='center'>
+                    
+                    <Row>
+                        <Col>
+                            <h1 className='exhib-h1 d-none d-sm-block' align='center'>EXHIBITIONS</h1>
+                            <h1 className='exhib-h1-mobile d-sm-none' align='center'>EXHIBITIONS</h1>
+                        </Col>
+                    </Row>
+                    
+                    <Row>
+                        <Col sm={{ span: 7, offset: 1 }}><AnimatedOnScroll animationIn='fadeInUp' isVisible={true}>
+                            
+                            <div className='exhib-intro'>
+                               Les expositions Breakfast ont pour but d’attirer la jeunesse dans nos évènements et de leur offrir notre vision de l’art urbain. Le but du projet étant de montrer qu’il n’y a pas de limite à la création et que chacun peut créer autant qu’il le souhaite. Que cette création soit l’essence même de l’Homme car elle permet de laisser une trace dans l’histoire. C’est ce que nous souhaitons : laisser une trace dans l’histoire en partageant notre univers aux autres. 
+                            </div>
+                            </AnimatedOnScroll></Col>
+
+                    </Row>
+                    
                     <Row className='soon-div'>
 
                         <Col  xs={{span:1,offset:0}} md={{span:2,offset:2}}>
@@ -33,10 +51,14 @@ class Exhib extends Component {
                             </div>
 
                         </Col>
-                        <Col xs={{span:6,offset:4}} md={{span:7,offset:1}} className='my-auto'>
-                            <div className='exhib-description-soon'>
-                                dj cioqjd cxiojze sdic zeiucd xzeuidhs cxieodjs cpxiuoehd vciujh rdiufh czeiukqshdf xiuh eiudhsc xizeldkushd xi odijzojd oi coij eoij oiehjz iu hfviuh zeiuh fiu ziedj xoqhzuzidjh iued ci eiv hieuhvkjndckjsnck zej o nci nc ke ck eic kuhjsb vcij;hs nidkjhcnx kq;ujhkj d ukmudj nduis kjdicu xuskd yux kzjqsdydjxn sjdjs fndxuhqjsh sudx  zsij xqks jd xizks.
-                            </div>
+                        <Col xs={{span:6,offset:3}} md={{span:7,offset:0}} className='my-auto'>
+                            <AnimatedOnScroll className='exhib-description-soon' animationIn='fadeInUp' isVisible={true}>
+                            
+                                La Breakfast Exhibition, organisée par ce groupe d’amis dont la plupart sont des étudiants de l’INSEEC BS Paris, consiste à vous faire découvrir cette atmosphère en mélangeant leurs peintures, leurs musiques et leur marque de vêtements à l’aide de la promotion de ses différents produits, tout cela dans une salle décorée afin qu’elle reflète au mieux leur univers.<br></br>
+                                Notre prochain projet serait de mettre en place une exposition (voir aussi un défilé) dans la mairie du 10ème arrondissement de Paris. Pourquoi ne pas mélanger notre univers aux peintures déstructurées avec un lieu qui, au contraire, resplendit par son architecture si bien établie ? Ce projet est en cours…….
+
+                       
+                            </AnimatedOnScroll>
                         </Col>
                     </Row>
                     <Row>

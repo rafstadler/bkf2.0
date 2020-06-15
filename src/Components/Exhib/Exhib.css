@@ -91,6 +91,16 @@
     padding-top: 10em
 }
 
+.exhib-intro {
+    padding: 1em;
+    color: white;
+    font-family: MyOswald;  
+    margin-top: 5em;
+    background-color: #e2cbbeff;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 .exhib-carousel {
     width: 90% ;
     background-color: #e2cbbeff;

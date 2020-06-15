@@ -116,6 +116,26 @@ class WAW extends Component {
 
                         </Col>
                     </Row>
+                    <div className="waw-div-history">
+                         <Row>
+                            <Col sm={{ span: 7, offset: 1 }}><AnimatedOnScroll animationIn='fadeInUp' isVisible={true}>
+
+                                <div className='waw-history'>
+                                    BKF (abréviation de Breakfast) est <b className='waw-b'>une atmosphère </b> créée par l’ensemble des membres. Cette atmosphère est née de plusieurs lendemains de soirées. Afin de repartir sur une bonne et efficace journée, nous devions chacun prendre une tasse de thé tous ensemble autour d’une table tout en parlant de nos projets futurs et de notre avenir. <b className='waw-b'>Un rituel</b> que l’on nomme aujourd’hui comme étant le « Breakfast ». Pour nous, il est devenu nécessaire de le <b className='waw-b'>partager</b> puisqu’il est entré dans notre quotidien. 
+                                </div>
+                                </AnimatedOnScroll></Col>
+
+                        </Row>
+                        <Row>
+                            <Col sm={{ span: 7, offset: 4 }}><AnimatedOnScroll animationIn='fadeInUp' isVisible={true}>
+
+                                <div className='waw-history'>
+                                    Nous partageons <b className='waw-b'>ce mode de vie</b> à travers notre marque de vêtements, notre façon d’être et <b className='waw-b'>nos créations</b> qu’elles soient musicales ou artistiques.
+                                </div>
+                                </AnimatedOnScroll></Col>
+
+                        </Row>
+                    </div>
                     <Row>
                         <Col className='test'>
                             <footer className='other-footer' align="center">@BKF2020 by Stadler Raphael</footer>

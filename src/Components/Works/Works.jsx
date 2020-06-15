@@ -77,7 +77,20 @@ scrollToLocation = () => {
                                 <h1 className='works-h1 d-none d-sm-block' align='center'>CLOTHES</h1>
                                  
                             </Col>
-                        </Row>    
+                        </Row>  
+                        
+                        <Row>
+                            <Col sm={{ span: 7, offset: 4 }}><AnimatedOnScroll animationIn='fadeInUp' isVisible={true}>
+                            
+                            <div className='clothes-intro'>
+                                
+                                C’est à travers nos premiers pulls Breakfast que nous avons pu diffuser l’image de la Bkf. À chaque soirée, tous les membres portaient leur propre pull avec la couleur qui lui correspondait le mieux. Après avoir fait des pulls, des t-shirts et des casquettes sous diverses collections, Breakfast s’agrandit et a décidé de créer ses propres vêtements en commençant par des pantalons, chemises et bobs colorés.
+
+                                </div>
+                                </AnimatedOnScroll>
+                            </Col>
+                        
+                        </Row>
                         <Row className="oeuvre">
                             <Col className='works-description' md={{ span: 4, offset: 1 }}>
                                 <AnimatedOnScroll animationIn='fadeInUpBig' animationInDuration='1200' isVisible={true}>
