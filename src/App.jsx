@@ -10,6 +10,7 @@ import WAW from './Components/WAW/WAW';
 import Works from './Components/Works/Works';
 import Exhib from './Components/Exhib/Exhib';
 import Contact from './Components/Contact/Contact';
+import ScrollToTop from './Components/ScrollToTop';
 import styled from "styled-components";
 
 
@@ -63,6 +64,8 @@ class App extends Component {
                                 </Col>
 
                             </Navbar>
+                            
+                            <ScrollToTop />
 
 
                             <TransitionGroup>

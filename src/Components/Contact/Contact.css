@@ -58,4 +58,17 @@
     background-color: #d6a586ff;
     text-align: justify;
     text-justify: inter-word;
+    margin-bottom: 2em;
+}
+
+.contact-b {
+    display: inline-block;
+    background-repeat: no-repeat;
+    position: relative;
+    background-image: url('../../img/visage1.png');
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: bold;
 }

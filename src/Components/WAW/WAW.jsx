@@ -5,6 +5,8 @@ import {AnimatedOnScroll} from "react-animated-css-onscroll";
 import './WAW.css';
 
 class WAW extends Component {
+    
+    
     constructor(props){
         super(props);
         props.callbackPage(props.location);

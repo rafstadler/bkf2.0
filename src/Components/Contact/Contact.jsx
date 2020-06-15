@@ -30,7 +30,11 @@ class Contact extends Component {
                             </Col>
                             <Col xs={{span:6,offset:2}} md={{span:7,offset:0}} className='my-auto'>
                                 <div className='contact-description'>
-                                    dj cioqjd cxiojze sdic zeiucd xzeuidhs cxieodjs cpxiuoehd vciujh rdiufh czeiukqshdf xiuh eiudhsc xizeldkushd xi odijzojd oi coij eoij oiehjz iu hfviuh zeiuh fiu ziedj xoqhzuzidjh iued ci eiv hieuhvkjndckjsnck zej o nci nc ke ck eic kuhjsb vcij;hs nidkjhcnx kq;ujhkj d ukmudj nduis kjdicu xuskd yux kzjqsdydjxn sjdjs fndxuhqjsh sudx  zsij xqks jd xizks.
+                                    Pour toute question professionnelle merci de nous envoyer un <a href="mailto:ludo_garni@hotmail.fr" className="contact-b">MAIL</a> ou nous contacter au 0786536525.<br />
+                                   
+                                </div>
+                                <div className='contact-description'>
+                                    Raphael Stadler, membre de la BKF et web designer est aussi à l'affut de nouveaux projets et se fera un plaisir de vous aider, merci de le contacter par <a href="mailto:raph.stadler@gmail.com" className="contact-b">MAIL</a>. 
                                 </div>
                             </Col>
                         </Row>
@@ -39,7 +43,7 @@ class Contact extends Component {
 
                             <Col xs={{span:6,offset:1}} md={{span:7,offset:1}} className='my-auto'>
                                 <div className='contact-description'>
-                                    dj cioqjd cxiojze sdic zeiucd xzeuidhs cxieodjs cpxiuoehd vciujh rdiufh czeiukqshdf xiuh eiudhsc xizeldkushd xi odijzojd oi coij eoij oiehjz iu hfviuh zeiuh fiu ziedj xoqhzuzidjh iued ci eiv hieuhvkjndckjsnck zej o nci nc ke ck eic kuhjsb vcij;hs nidkjhcnx kq;ujhkj d ukmudj nduis kjdicu xuskd yux kzjqsdydjxn sjdjs fndxuhqjsh sudx  zsij xqks jd xizks.
+                                    
                                 </div>
                             </Col>
                             <Col  xs={{span:1,offset:0}} md={{span:2,offset:0}}>

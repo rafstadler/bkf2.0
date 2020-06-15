@@ -64,7 +64,6 @@ scrollToLocation = () => {
                             <AnchorLink href='#painting' className='menu-link'>Painting</AnchorLink>
                             <AnchorLink href='#music' className='menu-link'>Music</AnchorLink>
                             <AnchorLink href='#tattoo' className='menu-link'>Tatouage</AnchorLink>
-                            <AnchorLink href='#dance' className='menu-link'>Dance</AnchorLink>
 
                         </Container>
                     </div>
@@ -80,7 +79,7 @@ scrollToLocation = () => {
                         </Row>  
                         
                         <Row>
-                            <Col sm={{ span: 7, offset: 4 }}><AnimatedOnScroll animationIn='fadeInUp' isVisible={true}>
+                            <Col sm={{ span: 8, offset: 3 }}><AnimatedOnScroll animationIn='fadeInUp' isVisible={true}>
                             
                             <div className='clothes-intro'>
                                 
@@ -297,12 +296,6 @@ scrollToLocation = () => {
                             <Col id="tattoo">
                                 <h1 className='works-h1 d-none d-sm-block' align='center'>TATOUAGE</h1>
                                 <h1 className='works-h1-mobile d-sm-none' align='center'>TATOUAGE</h1>
-                            </Col>
-                        </Row>
-                        <Row>
-                            <Col id="dance">
-                                <h1 className='works-h1 d-none d-sm-block' align='center'>DANCE</h1>
-                                <h1 className='works-h1-mobile d-sm-none' align='center'>DANCE</h1>
                             </Col>
                         </Row>
                         <Row>
