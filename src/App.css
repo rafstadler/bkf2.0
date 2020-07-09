@@ -1,27 +1,49 @@
 .color-nav{
-    background-color: rgba(33, 26, 29,0.0)
+   background-color: white
 }
 
 .nav-brand{
     font-family:'Hijrnotes';
-    color:black;
+    
+    
+    background-image: url('img/duducloud.gif');
+    background-size: cover;
+    background-attachment: fixed;
+   
+    background-position: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
     font-size: 2em;
     font-weight: bold
 }
 
 .nav-link{  
-    color:black;
+    
+    background-image: url('img/duducloud.gif');
+    background-size: cover;
+    background-attachment: fixed;
+   
+    background-position: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    
     font-size: 1.2em;
     font-family: MyOpen    
 }
 
 .nav-link:hover{
     text-decoration: line-through;
-    color: black
+    background-image: url('img/duducloud.gif');
+    background-size: cover;
+    background-attachment: fixed;
+   
+    background-position: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 .nav-brand:hover{
-    color: black ;
+    color: white ;
     text-decoration: none
 }
 
@@ -45,7 +67,7 @@
 
 .header-drop {
     opacity:1;
-    color:black;
+    color:white;
     font-family:MyOpen;
     font-size:16px;
     mix-blend-mode:normal;
@@ -53,7 +75,7 @@
 }
 
 #nav-dropdown{
-    color: black;
+    color: white;
     right: 0;
     left: auto;
 }

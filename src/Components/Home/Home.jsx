@@ -24,7 +24,7 @@ render() {
     return (
         <div>
  
-            <video autoplay="autoplay" loop="loop" muted playsinline className="video">
+            <video autoplay="autoplay" loop="loop" muted playsinline='playsinline' className="video">
                 <source src={require('../../img/acceuilbq.mp4')} type="video/mp4"/>
             </video>
             <div className='caption page' align='center'>
