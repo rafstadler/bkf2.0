@@ -4,7 +4,7 @@
     position: fixed;
     min-width: 100%;
     min-height: 100%;
-    background-color: #e2cbbeff;
+    background-color: white;
 }
 
 .exhib-central{
@@ -16,7 +16,7 @@
     right: 20%;
     min-height: 100%;
     width: 60%;
-    background-color: #b0adceff;
+    background-color: white;
 
 }
 
@@ -27,7 +27,7 @@
     background-image: url('../../img/salle.png');
     background-attachment: fixed;
     background-size: cover;
-    padding-top: 1.5em;
+    padding-top: 2em;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     letter-spacing: 0.1em;
@@ -77,20 +77,20 @@
 }
 
 .exhib-description-soon {
-    padding: 2em;
-    color: white;
+    color: black;
     font-family: MyOswald;  
-    background-color: #e2cbbeff;
+    margin-top: 2em;
     text-align: justify;
     text-justify: inter-word;
-    font-size: 1.2em;
-    letter-spacing: 0.1em;
+    font-size: 120%;
+    line-height: 170%;
+    padding: 2em;
     border-radius: 3em;
     
 }
 
 .exhib-description {
-    padding-top: 7em;
+   
     padding-right: 3em;
     padding-left: 3em;
 }
@@ -100,22 +100,21 @@
 }
 
 .exhib-intro {
-    color: white;
+    color: black;
     font-family: MyOswald;  
     margin-top: 2em;
-    text-align: justify;
+    text-align: center;
     text-justify: inter-word;
-    font-size: 150%;
+    font-size: 120%;
     line-height: 170%;
     padding: 2em;
     border-radius: 3em;
-    letter-spacing: 0.2em;
-    font-weight: bold;
+
 }
 
 .exhib-carousel {
     width: 90% ;
-    background-color: #e2cbbeff;
+    background-color: white;
     padding: 2em;
     border-radius: 3em;
     margin-top: 2em;
@@ -125,15 +124,15 @@
     font-family: MyOpen;
     display: flex;
     justify-content: flex-end;
-    color: white;
+    color: black;
 }
 
 .exhib-oeuvre {
 
     padding: 2em;
-    color: white;
+    color: black;
     font-family: MyOswald;  
-    background-color: #e2cbbeff;
+    background-color: white;
     text-align: justify;
     text-justify: inter-word;
    font-size: 1.2em;

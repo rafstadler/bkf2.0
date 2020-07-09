@@ -4,7 +4,7 @@
     position: fixed;
     min-width: 100%;
     min-height: 100%;
-    background-color: #b0adceff;
+    background-color: white;
 
 }
 
@@ -17,7 +17,7 @@
     right: 20%;
     min-height: 100%;
     width: 60%;
-    background-color: #C0D1DFff;
+    background-color: white;
 
 }
 
@@ -41,25 +41,21 @@
     background-image: url('../../img/nude.jpg');
     background-attachment: fixed;
     background-size: cover;
-    padding-top: 1.5em;
+    padding-top: 2em;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
 
 .clothes-intro {
-    color: white;
+    color: black;
     font-family: MyOswald;  
     margin-top: 2em;
-    text-align: justify;
+    text-align: center;
     text-justify: inter-word;
-    font-size: 150%;
+    font-size: 120%;
     line-height: 170%;
     padding: 2em;
     border-radius: 3em;
-    letter-spacing: 0.2em;
-    font-weight: bold;
-    
-    
 }
 
 .works-menu {
@@ -89,7 +85,7 @@
 
 .menu-link:hover{
     text-decoration: line-through;
-    color: white
+    color: black;
 }
 
 .oeuvre {
@@ -99,26 +95,28 @@
 
 .works-oeuvre {
 
-    padding: 2em;
-    color: white;
+     padding: 1em;
+    color: black;
     font-family: MyOswald;  
-    background-color: #b0adceff;
+    
+    background-color: white;
     text-align: justify;
     text-justify: inter-word;
+   
     border-radius: 3em;
-    font-size: 120%;
     letter-spacing: 0.1em;
+  
 }
 
 .visu {
-    background-color: #b0adceff;
+    background-color: white;
     padding: 2em;
     margin-top: 5em;
     border-radius: 3em;
 }
 
 .visu-media {
-    background-color: #b0adceff;
+    background-color: white;
     
     margin-top: 5em;
 
@@ -134,14 +132,14 @@
     font-family: MyOpen;
     display: flex;
     justify-content: flex-end;
-    color: white;
+    color: black;
 }
 
 .works-h2-left {
     font-family: MyOpen;
     display: flex;
     justify-content: flex-start;
-    color: white;
+    color: black;
 }
 
 .works-description {

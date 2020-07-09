@@ -31,7 +31,7 @@ class Exhib extends Component {
                     </Row>
                     
                     <Row>
-                        <Col sm={{ span: 7, offset: 1 }}><AnimatedOnScroll animationIn='fadeInUp' isVisible={true}>
+                        <Col sm={{ span: 8, offset: 2 }}><AnimatedOnScroll animationIn='fadeInUp' isVisible={true}>
                             
                             <div className='exhib-intro'>
                                &nbsp;&nbsp;&nbsp;Les expositions Breakfast ont pour but d’attirer la jeunesse dans nos évènements et de leur offrir notre vision de l’art urbain. Le but du projet étant de montrer qu’il n’y a pas de limite à la création et que chacun peut créer autant qu’il le souhaite. Que cette création soit l’essence même de l’Homme car elle permet de laisser une trace dans l’histoire. C’est ce que nous souhaitons : laisser une trace dans l’histoire en partageant notre univers aux autres. 
@@ -40,9 +40,9 @@ class Exhib extends Component {
 
                     </Row>
                     
-                    <Row className='soon-div'>
+                    <Row className='soon-div align-items-center'>
 
-                        <Col  xs={{span:1,offset:0}} md={{span:2,offset:2}}>
+                        <Col  xs={{span:1,offset:0}} md={{span:2,offset:1}}>
                             <div className='soon' >
 
                                 <h1 className='exhib-h1-soon d-none d-sm-block' align='center'>À VENIR</h1>
@@ -68,7 +68,7 @@ class Exhib extends Component {
                         </Col>
                     </Row>
                     
-                    <Row className="expo">
+                    <Row className="expo align-items-center">
                         <Col className='exhib-description' md={{ span: 4, offset: 1 }}>
                             <AnimatedOnScroll animationIn='fadeInUpBig' animationInDuration='1200' isVisible={true}>
                                     <div>

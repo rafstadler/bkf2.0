@@ -79,7 +79,7 @@ scrollToLocation = () => {
                         </Row>  
                         
                         <Row>
-                            <Col sm={{ span: 8, offset: 3 }}><AnimatedOnScroll animationIn='fadeInUp' isVisible={true}>
+                            <Col sm={{ span: 8, offset: 2 }}><AnimatedOnScroll animationIn='fadeInUp' isVisible={true}>
                             
                             <div className='clothes-intro'>
                                 
@@ -90,7 +90,7 @@ scrollToLocation = () => {
                             </Col>
                         
                         </Row>
-                        <Row className="oeuvre">
+                        <Row className="oeuvre align-items-center">
                             <Col className='works-description' md={{ span: 4, offset: 1 }}>
                                 <AnimatedOnScroll animationIn='fadeInUpBig' animationInDuration='1200' isVisible={true}>
                                     <div>
@@ -115,7 +115,7 @@ scrollToLocation = () => {
 
                         </Row>
 
-                        <Row className="oeuvre">
+                        <Row className="oeuvre align-items-center">
                             
                             <Col className='works-description d-md-none' md={4}>
                                 <AnimatedOnScroll animationIn='fadeInUpBig' animationInDuration='1200' isVisible={true}>
@@ -160,7 +160,7 @@ scrollToLocation = () => {
                             </Col>
                         </Row>
                         
-                        <Row className="oeuvre">
+                        <Row className="oeuvre align-items-center">
                             <Col className='works-description' md={{ span: 4, offset: 1 }}>
                                 <AnimatedOnScroll animationIn='fadeInUpBig' animationInDuration='1200' isVisible={true}>
                                     <div>
@@ -185,7 +185,7 @@ scrollToLocation = () => {
 
                         </Row>
 
-                        <Row className="oeuvre">
+                        <Row className="oeuvre align-items-center">
                             
                             <Col className='d-md-none works-description' md={4}>
                                 <AnimatedOnScroll animationIn='fadeInUpBig' animationInDuration='1200' isVisible={true}>
@@ -231,7 +231,7 @@ scrollToLocation = () => {
                         </Row>
                         
                         
-                        <Row className="oeuvre">
+                        <Row className="oeuvre align-items-center">
                             <Col className='works-description' md={{ span: 4, offset: 1 }}>
                                 <AnimatedOnScroll animationIn='fadeInUpBig' animationInDuration='1200' isVisible={true}>
                                     <div>
@@ -268,7 +268,7 @@ scrollToLocation = () => {
 
                         </Row>
                         
-                        <Row className="oeuvre">
+                        <Row className="oeuvre align-items-center">
                             <Col className='works-description' md={{ span: 4, offset: 1 }}>
                                 <AnimatedOnScroll animationIn='fadeInUpBig' animationInDuration='1200' isVisible={true}>
                                     <div>

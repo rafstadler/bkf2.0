@@ -27,7 +27,7 @@
     background-image: url('../../img/duducloud.gif');
     background-size: cover;
     background-attachment: fixed;
-    padding-top: 1em;
+    padding-top: 2em;
     background-position: center;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -98,13 +98,13 @@
     padding: 1em;
     color: black;
     font-family: MyOswald;  
-    margin-top: 7em;
+    
     background-color: white;
     text-align: justify;
     text-justify: inter-word;
    
     border-radius: 3em;
-    letter-spacing: 0.1em;
+
 
 }
 

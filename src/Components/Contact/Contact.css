@@ -4,7 +4,7 @@
     position: fixed;
     min-width: 100%;
     min-height: 100%;
-    background-color: #d6a586ff;
+    background-color: white;
 }
 
 .contact-central{
@@ -16,7 +16,7 @@
     right: 20%;
     min-height: 100%;
     width: 60%;
-    background-color: #e2cbbeff;
+    background-color: white;
 
 }
 
@@ -47,14 +47,14 @@
 }
 
 .contact-body {
-    padding-top: 2em;
+    padding-top: 5em;
 }
 
 .contact-item {
     padding-top: 1em;
 }
 .contact-description {
-    color: white;
+    color: black;
     font-family: MyOswald;  
     margin-top: 2em;
     text-align: justify;
@@ -68,7 +68,7 @@
 }
 
 .contact-description-left {
-    color: white;
+    color: black;
     font-family: MyOswald;  
     margin-top: 2em;
     text-align: right;

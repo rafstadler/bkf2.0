@@ -37,11 +37,11 @@ class App extends Component {
                 <Route render={({ location }) => (
                         <div>
 
-                            <Navbar className='color-nav' fixed='top' align='center'>
+                            <Navbar className={this.state.page.pathname==="/" ? 'transparent-nav' : 'white-nav'} fixed='top' align='center'>
 
 
-                                <Col sm={2} className='d-none d-sm-none d-lg-block'><Link to='/' className='nav-brand'> Breakfast </Link></Col>
-                                <Col sm={8} className='d-lg-none d-sm-block'><Link to='/' className='nav-brand'> Breakfast </Link></Col>
+                                <Col sm={2} className='d-none d-sm-none d-lg-block'><Link to='/' className='nav-brand'>&nbsp;Breakfast&nbsp;</Link></Col>
+                                <Col sm={8} className='d-lg-none d-sm-block'><Link to='/' className='nav-brand'>&nbsp;Breakfast&nbsp;</Link></Col>
                                 <Col sm={2} className='d-none d-sm-none d-lg-block'><Link to='/who_are_we' className='nav-link' style={this.state.page.pathname==="/who_are_we" ? {'text-decoration':'line-through underline'} : {}}>Who Are We</Link></Col>
                                 <Col sm={2} className='d-none d-sm-none d-lg-block'><Link to='/works#clothes' className='nav-link' style={this.state.page.pathname==="/works" ? {'text-decoration':'line-through underline'} : {}}> Works </Link></Col>
                                 <Col sm={2} className='d-none d-sm-none d-lg-block'><Link to='/exhib' className='nav-link' style={this.state.page.pathname==="/exhib" ? {'text-decoration':'line-through underline'} : {}}> Exhibitions </Link></Col>
