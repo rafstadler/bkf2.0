@@ -30,6 +30,17 @@ render() {
             <div className='caption page' align='center'>
                 <SplitText  className="home-title" initialPose="exit" pose="enter" charPoses={charPoses}>Breakfast</SplitText>
                 <br></br>
+                
+           <p aria-label="CodePen">
+  <span data-text="C">C</span>
+  <span data-text="O">O</span>
+  <span data-text="D">D</span>
+  <span data-text="E">E</span>
+  <span data-text="P">P</span>
+  <span data-text="E">E</span>
+  <span data-text="N">N</span>
+</p>
+  
              
             </div>
             

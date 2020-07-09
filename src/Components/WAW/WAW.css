@@ -54,39 +54,38 @@
 
 .other-footer {
     margin-bottom: 1em;
-    color: white;
+    color: black;
     font-size: 0.8em;
     font-family: MyOswald
 }
 
 .waw-intro {
   
-    color: white;
+    color: black;
     font-family: MyOswald;  
     margin-top: 2em;
-    text-align: justify;
+    text-align: center;
     text-justify: inter-word;
-    font-size: 150%;
+    font-size: 120%;
     line-height: 170%;
     padding: 2em;
     border-radius: 3em;
-    letter-spacing: 0.2em;
-    font-weight: bold;
+
 
 }
 
 .waw-history {
-   color: white;
+   color: black;
     font-family: MyOswald;  
     margin-top: 2em;
-    text-align: justify;
+    text-align: center;
     text-justify: inter-word;
-    font-size: 150%;
+    font-size: 120%;
     line-height: 170%;
     padding: 2em;
     border-radius: 3em;
-    letter-spacing: 0.2em;
-    font-weight: bold;
+
+
 }
 
 .waw-div-history{
@@ -97,13 +96,13 @@
 .waw-fondateur {
     
     padding: 1em;
-    color: white;
+    color: black;
     font-family: MyOswald;  
     margin-top: 7em;
     background-color: #C0D1DFff;
     text-align: justify;
     text-justify: inter-word;
-    font-size: 120%;
+   
     border-radius: 3em;
     letter-spacing: 0.1em;
 

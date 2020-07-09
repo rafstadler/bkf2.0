@@ -27,7 +27,7 @@ class WAW extends Component {
                         </Col>
                     </Row>
                     <Row>
-                        <Col sm={{ span: 7, offset: 4 }}><AnimatedOnScroll animationIn='fadeInUp' isVisible={true}>
+                        <Col sm={{ span: 8, offset: 2 }}><AnimatedOnScroll animationIn='fadeInUp' isVisible={true}>
                             
                             <div className='waw-intro'>
                                 &nbsp;&nbsp;&nbsp;Breakfast, c’est dans un premier temps une atmosphère, une façon très particulière de vivre sa vie. Mais c’est aussi une vision du monde et des points communs qui ont rassemblé un groupe d’amis en vue de construire un <b className='waw-b'>collectif créatif</b> mêlant <b className='waw-b'>art</b> et <b className='waw-b'>musique</b>.
@@ -43,10 +43,10 @@ class WAW extends Component {
                         </Col>
                     </Row>
 
-                    <Row className="fondateur">
+                    <Row className="fondateur align-items-center">
                         <Col md={{ span: 4, offset: 1 }}>
                             <AnimatedOnScroll animationIn='fadeInUpBig' animationInDuration='1200' isVisible={true}>
-                                <div className='waw-fondateur'>
+                                <div className='waw-fondateur '>
                                     <h2 className='waw-h2'>  Ludovic Garni,</h2>membre fondateur du collectif créatif Breakfast Paris, est un artiste peintre s’inspirant du style impressionnisme et du réalisme afin de réaliser des <Link to="/works#painting"><b className='waw-b waw-link'>tableaux</b></Link> de paysages et d’autres de femmes : deux éléments primordiaux l’inspirant dans sa vie de tous les jours. Il est également gérant de la marque de <Link to="/works#clothes"><b className='waw-b waw-link'>vêtements</b></Link> Breakfast Paris en tant que Brand Manager mais aussi Art Director et Project Manager pour la mise en place des Breakfast Exhibitions.
                                 </div>
                             </AnimatedOnScroll>
@@ -63,7 +63,7 @@ class WAW extends Component {
 
                     </Row>
 
-                    <Row className="fondateur">
+                    <Row className="fondateur align-items-center">
                         
                         <Col className='d-md-none' md={4}>
                             <AnimatedOnScroll animationIn='fadeInUpBig' animationInDuration='1200' isVisible={true}>
@@ -93,7 +93,7 @@ class WAW extends Component {
 
                     </Row>
 
-                    <Row className="fondateur">
+                    <Row className="fondateur align-items-center">
                         <Col md={{ span: 4, offset: 1 }}>
                             <AnimatedOnScroll animationIn='fadeInUpBig' animationInDuration='1500' isVisible={true}>
                                 <div className='waw-fondateur'>
@@ -120,7 +120,7 @@ class WAW extends Component {
                     </Row>
                     <div className="waw-div-history">
                          <Row>
-                            <Col sm={{ span: 7, offset: 1 }}><AnimatedOnScroll animationIn='fadeInUp' isVisible={true}>
+                            <Col sm={{ span: 8, offset: 2 }}><AnimatedOnScroll animationIn='fadeInUp' isVisible={true}>
 
                                 <div className='waw-history'>
                                     &nbsp;&nbsp;&nbsp;Bkf (abréviation de Breakfast) est <b className='waw-b'> une atmosphère </b> née de plusieurs lendemains de soirées. Nous avons pris l'habitude de boire tous ensemble une tasse de thé en fin de soirée/début de journée. Un moment de calme, de partage et de réflexion autour de nos projets et nos avenirs. <b className='waw-b'>Ce rituel</b> on le nomme aujourd’hui comme étant le « Breakfast ». Pour nous, il est devenu nécessaire de le <b className='waw-b'>partager</b> au quotidien. 
@@ -129,7 +129,7 @@ class WAW extends Component {
 
                         </Row>
                         <Row>
-                            <Col sm={{ span: 7, offset: 4 }}><AnimatedOnScroll animationIn='fadeInUp' isVisible={true}>
+                            <Col sm={{ span: 8, offset: 2 }}><AnimatedOnScroll animationIn='fadeInUp' isVisible={true}>
 
                                 <div className='waw-history'>
                                     &nbsp;&nbsp;&nbsp;Nous partageons ce <b className='waw-b'> mode de vie</b> à travers notre marque de vêtements, notre façon d’être et <b className='waw-b'>nos créations</b> qu’elles soient musicales ou artistiques.
