@@ -90,6 +90,46 @@ scrollToLocation = () => {
                             </Col>
                         
                         </Row>
+                        
+                        <Row className="visus-clothes">
+                            <Col md={3} xs={6}>
+                                <Image className='visu-clothes' src={require('../../img/nuage.png')} fluid></Image>
+                            </Col>
+                            <Col md={3} xs={6}>
+                                <Image className='visu-clothes' src={require('../../img/nuage.png')} fluid></Image>
+                            </Col>
+                            <Col md={3} xs={6}>
+                                <Image className='visu-clothes' src={require('../../img/nuage.png')} fluid></Image>
+                            </Col>
+                            <Col md={3} xs={6}>
+                                <Image className='visu-clothes' src={require('../../img/nuage.png')} fluid></Image>
+                            </Col>
+                            
+                            <Col md={3} xs={6}>
+                                <Image className='visu-clothes' src={require('../../img/nuage.png')} fluid></Image>
+                            </Col>
+                            
+                            <Col md={3} xs={6}>
+                                <Image className='visu-clothes' src={require('../../img/nuage.png')} fluid></Image>
+                            </Col>
+                            
+                            <Col md={3} xs={6}>
+                                <Image className='visu-clothes' src={require('../../img/nuage.png')} fluid></Image>
+                            </Col>
+                            
+                            <Col md={3} xs={6}>
+                                <Image className='visu-clothes' src={require('../../img/nuage.png')} fluid></Image>
+                            </Col>
+                            
+                            <Col md={3} xs={6}>
+                                <Image className='visu-clothes' src={require('../../img/nuage.png')} fluid></Image>
+                            </Col>
+                            
+                            <Col md={3} xs={6}>
+                                <Image className='visu-clothes' src={require('../../img/nuage.png')} fluid></Image>
+                            </Col>
+                            
+                        </Row>
                         <Row className="oeuvre align-items-center">
                             <Col className='works-description' md={{ span: 4, offset: 1 }}>
                                 <AnimatedOnScroll animationIn='fadeInUpBig' animationInDuration='1200' isVisible={true}>
@@ -153,6 +193,8 @@ scrollToLocation = () => {
 
 
                         </Row>
+                        
+                        
                         <Row>
                             <Col id="painting">
                                 <h1 className='works-h1 d-none d-sm-block' align='center'>PAINTING</h1>

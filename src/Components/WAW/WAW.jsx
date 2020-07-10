@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route ,withRouter , Link} from 'react-
 import {Container, Row, Col,Image} from 'react-bootstrap';
 import {AnimatedOnScroll} from "react-animated-css-onscroll";
 import './WAW.css';
+import Member from './Member';
 
 class WAW extends Component {
     
@@ -38,8 +39,8 @@ class WAW extends Component {
 
                     <Row>
                         <Col className='test'>
-                            <h1 className='waw-h1 d-none d-sm-block' align='center'>LES FONDATEURS</h1>
-                            <h1 className='waw-h1-mobile d-sm-none' align='center'>LES FONDATEURS</h1>
+                            <h1 className='waw-h1 d-none d-sm-block' align='center'>FUNDERS</h1>
+                            <h1 className='waw-h1-mobile d-sm-none' align='center'>FUNDERS</h1>
                         </Col>
                     </Row>
 
@@ -109,6 +110,28 @@ class WAW extends Component {
 
                             </AnimatedOnScroll>
                         </Col>
+                    </Row>
+                    
+                    <Row>
+                        <Col className='test'>
+                            <h1 className='waw-h1 d-none d-sm-block' align='center'>MEMBERS</h1>
+                            <h1 className='waw-h1-mobile d-sm-none' align='center'>MEMBERS</h1>
+                        </Col>
+                    </Row>
+                    
+                    
+                    
+                    <Row className="visus-members">
+                            <Member ></Member>
+                         <Member ></Member>
+                         <Member ></Member>
+                         <Member ></Member>
+                         <Member ></Member>
+                         <Member ></Member>
+                         <Member ></Member>
+                        
+                            
+                        
                     </Row>
 
                     <Row>
