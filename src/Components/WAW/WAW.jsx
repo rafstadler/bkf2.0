@@ -6,8 +6,8 @@ import './WAW.css';
 import Member from './Member';
 
 class WAW extends Component {
-    
-    
+
+
     constructor(props){
         super(props);
         props.callbackPage(props.location);
@@ -23,13 +23,13 @@ class WAW extends Component {
                         <Col className='test'>
                             <h1 className='waw-h1  d-none d-sm-block' align='center'>BREAKFAST</h1>
                             <h1 className='waw-h1-mobile d-sm-none' align='center'>BREAKFAST</h1>
-                            
-                            
+
+
                         </Col>
                     </Row>
                     <Row>
                         <Col sm={{ span: 8, offset: 2 }}><AnimatedOnScroll animationIn='fadeInUp' isVisible={true}>
-                            
+
                             <div className='waw-intro'>
                                 &nbsp;&nbsp;&nbsp;Breakfast, c’est dans un premier temps une atmosphère, une façon très particulière de vivre sa vie. Mais c’est aussi une vision du monde et des points communs qui ont rassemblé un groupe d’amis en vue de construire un <b className='waw-b'>collectif créatif</b> mêlant <b className='waw-b'>art</b> et <b className='waw-b'>musique</b>.
                             </div>
@@ -65,7 +65,7 @@ class WAW extends Component {
                     </Row>
 
                     <Row className="fondateur align-items-center">
-                        
+
                         <Col className='d-md-none' md={4}>
                             <AnimatedOnScroll animationIn='fadeInUpBig' animationInDuration='1200' isVisible={true}>
                                 <div className='waw-fondateur'>
@@ -111,26 +111,24 @@ class WAW extends Component {
                             </AnimatedOnScroll>
                         </Col>
                     </Row>
-                    
+
                     <Row>
                         <Col className='test'>
                             <h1 className='waw-h1 d-none d-sm-block' align='center'>MEMBERS</h1>
                             <h1 className='waw-h1-mobile d-sm-none' align='center'>MEMBERS</h1>
                         </Col>
                     </Row>
-                    
-                    
-                    
+
+
+
                     <Row className="visus-members">
-                            <Member ></Member>
-                         <Member ></Member>
-                         <Member ></Member>
-                         <Member ></Member>
-                         <Member ></Member>
-                         <Member ></Member>
-                         <Member ></Member>
-                        
-                            
+                        <Member nom="Dave" description="DJ et Artiste" photo="dave.png"></Member>
+                        <Member nom="Charles Offmann" description="Beatmaker" photo="charles.png"></Member>
+                        <Member nom="Raphael Stadler" description="Web Développeur" photo="raf.png"></Member>
+                        <Member nom="Ludovic Garni" description="Membre fondateur" photo="dudu.png"></Member>
+                        <Member nom="Emota" description="Membre fondateur" photo="emota.png"></Member>
+                        <Member nom="Tchap" description="Membre fondateur" photo="tchap.png"></Member>
+                   
                         
                     </Row>
 
@@ -142,7 +140,7 @@ class WAW extends Component {
                         </Col>
                     </Row>
                     <div className="waw-div-history">
-                         <Row>
+                        <Row>
                             <Col sm={{ span: 8, offset: 2 }}><AnimatedOnScroll animationIn='fadeInUp' isVisible={true}>
 
                                 <div className='waw-history'>

@@ -55,7 +55,7 @@ class App extends Component {
 
 
                                 <Col sm={2} className="header-drop d-lg-none d-sm-block">
-                                    <NavDropdown alignRight title={this.props.page} id="nav-dropdown">
+                                    <NavDropdown alignRight title={this.props.page} id={this.state.page.pathname==="/" ? 'nav-dropdown-white' : 'nav-dropdown' }>
                                         <NavDropdown.Item><Link to='/who_are_we' className='nav-link' align='center' style={this.state.page.pathname==="/who_are_we" ? {'text-decoration':'line-through underline','color':'black'} : {'color':'black'}}>Who Are We</Link></NavDropdown.Item>
                                         <NavDropdown.Item><Link to='/works#clothes' className='nav-link' align='center' style={this.state.page.pathname==="/works" ? {'text-decoration':'line-through underline','color':'black'} : {'color':'black'}}>Works</Link></NavDropdown.Item>
                                         <NavDropdown.Item><Link to='/exhib' className='nav-link'  align='center' style={this.state.page.pathname==="/exhib" ? {'text-decoration':'line-through underline','color':'black'} : {'color':'black'}}>Exhibitions</Link></NavDropdown.Item>

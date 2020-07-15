@@ -98,6 +98,12 @@
     left: auto;
 }
 
+#nav-dropdown-white{
+    color: white;
+    right: 0;
+    left: auto;
+}
+
 .page {
   position: absolute;
   left: 0;

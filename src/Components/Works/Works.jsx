@@ -92,42 +92,35 @@ scrollToLocation = () => {
                         </Row>
                         
                         <Row className="visus-clothes">
-                            <Col md={3} xs={6}>
+                            <Col md={3}>
                                 <Image className='visu-clothes' src={require('../../img/nuage.png')} fluid></Image>
                             </Col>
-                            <Col md={3} xs={6}>
+                            <Col md={3}>
                                 <Image className='visu-clothes' src={require('../../img/nuage.png')} fluid></Image>
                             </Col>
-                            <Col md={3} xs={6}>
+                            <Col md={3}>
                                 <Image className='visu-clothes' src={require('../../img/nuage.png')} fluid></Image>
                             </Col>
-                            <Col md={3} xs={6}>
-                                <Image className='visu-clothes' src={require('../../img/nuage.png')} fluid></Image>
-                            </Col>
-                            
-                            <Col md={3} xs={6}>
+                            <Col md={3}>
                                 <Image className='visu-clothes' src={require('../../img/nuage.png')} fluid></Image>
                             </Col>
                             
-                            <Col md={3} xs={6}>
+                            <Col md={3}>
                                 <Image className='visu-clothes' src={require('../../img/nuage.png')} fluid></Image>
                             </Col>
                             
-                            <Col md={3} xs={6}>
+                            <Col md={3}>
                                 <Image className='visu-clothes' src={require('../../img/nuage.png')} fluid></Image>
                             </Col>
                             
-                            <Col md={3} xs={6}>
+                            <Col md={3}>
                                 <Image className='visu-clothes' src={require('../../img/nuage.png')} fluid></Image>
                             </Col>
                             
-                            <Col md={3} xs={6}>
+                            <Col md={3}>
                                 <Image className='visu-clothes' src={require('../../img/nuage.png')} fluid></Image>
                             </Col>
                             
-                            <Col md={3} xs={6}>
-                                <Image className='visu-clothes' src={require('../../img/nuage.png')} fluid></Image>
-                            </Col>
                             
                         </Row>
                         <Row className="oeuvre align-items-center">
