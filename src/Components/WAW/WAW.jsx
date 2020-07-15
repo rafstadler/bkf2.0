@@ -122,9 +122,9 @@ class WAW extends Component {
 
 
                     <Row className="visus-members">
-                        <Member nom="Dave" description="DJ et Artiste" photo="dave.png"></Member>
+                        <Member nom="Dave Kandy" description="DJ et Artiste" photo="dave.png"></Member>
                         <Member nom="Charles Offmann" description="Beatmaker" photo="charles.png"></Member>
-                        <Member nom="Raphael Stadler" description="Web Développeur" photo="raf.png"></Member>
+                        <Member nom="Raphael Stadler" description="Web Designer & Développeur" photo="raf.png"></Member>
                         <Member nom="Ludovic Garni" description="Membre fondateur" photo="dudu.png"></Member>
                         <Member nom="Emota" description="Membre fondateur" photo="emota.png"></Member>
                         <Member nom="Tchap" description="Membre fondateur" photo="tchap.png"></Member>

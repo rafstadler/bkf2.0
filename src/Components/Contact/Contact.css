@@ -56,10 +56,10 @@
 .contact-description {
     color: black;
     font-family: MyOswald;  
-    margin-top: 2em;
+    padding-top: 4em;
     text-align: justify;
     text-justify: inter-word;
-    font-size: 150%;
+    
     line-height: 170%;
     padding: 2em;
     border-radius: 3em;
@@ -73,7 +73,7 @@
     margin-top: 2em;
     text-align: right;
     text-justify: inter-word;
-    font-size: 150%;
+    
     line-height: 170%;
     padding: 2em;
     border-radius: 3em;

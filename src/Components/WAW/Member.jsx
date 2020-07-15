@@ -25,7 +25,7 @@ class Member extends Component {
         return (
 
 
-            <Col onMouseEnter={this.handleMouseHover} onMouseLeave={this.handleMouseHover} md={4}>
+            <Col onMouseEnter={this.handleMouseHover} onMouseLeave={this.handleMouseHover} className= "one-member" md={4}>
                 <h2 className='waw-h2'>{this.props.nom}</h2>
                 <AnimatedOnScroll animationIn='fadeInUpBig' animationInDuration='1500' isVisible={true}>
                     <Image className='visu-members' src={require(`../../img/${this.props.photo}`)} fluid></Image>

@@ -28,7 +28,7 @@ class Contact extends Component {
                               
 
                             </Col>
-                            <Col xs={{span:8,offset:3}} md={{span:7,offset:0}} className='my-auto'>
+                            <Col xs={{span:8,offset:2}} md={{span:7,offset:0}} className='my-auto'>
                                 <div className='contact-description'>
                                     
                                     Business autour d'un thé :<br />&nbsp;&nbsp;<a href="mailto:ludo_garni@hotmail.fr" className="contact-mail">ludo.garni@hotmail.fr</a> &nbsp;/ &nbsp;0745686543<br /><br />
@@ -45,7 +45,7 @@ class Contact extends Component {
 
                         <Row className="contact-item">
 
-                            <Col xs={{span:6,offset:1}} md={{span:7,offset:1}} className='my-auto'>
+                            <Col xs={{span:8,offset:0}} md={{span:7,offset:1}} className='my-auto'>
                                 <div className='contact-description-left'>
                                    
                                     
