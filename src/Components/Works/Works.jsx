@@ -84,7 +84,16 @@ scrollToLocation = () => {
                             <div className='clothes-intro'>
                                 
                                 &nbsp;&nbsp;&nbsp;C’est à travers nos premiers pulls Breakfast que nous avons pu diffuser l’image de la Bkf. À chaque soirée, tous les membres portaient leur propre pull avec la couleur qui lui correspondait le mieux. Après avoir fait des pulls, des t-shirts et des casquettes sous diverses collections, Breakfast s’agrandit et a décidé de créer ses propres vêtements en commençant par des pantalons, chemises et bobs colorés.
-
+                                
+                                <br/>
+                                <br/>
+                                
+                                Lien vers notre boutique en ligne :
+                                <br/>
+                                <br/>
+                                
+                                <a href="https://breakfastparis.bigcartel.com" target="_blank" className="shop-link">SHOP</a>
+                                
                                 </div>
                                 </AnimatedOnScroll>
                             </Col>

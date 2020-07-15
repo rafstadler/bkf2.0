@@ -185,3 +185,23 @@
 .visus-clothes {
  padding: 6em;
 }
+
+.shop-link{
+    color: white;
+    background-image: url('../../img/nude.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 1.1em;
+    font-family: MyOpen;
+    padding-top:1em;
+    padding-bottom: 1em;
+    padding-left: 4em;
+    padding-right: 4em;
+    border-radius: 1.5em;
+}
+
+.shop-link:hover{
+     color: white;
+    text-decoration: none
+    
+}

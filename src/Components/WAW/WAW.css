@@ -74,24 +74,7 @@
 
 }
 
-.waw-history {
-   color: black;
-    font-family: MyOswald;  
-    margin-top: 2em;
-    text-align: center;
-    text-justify: inter-word;
-    font-size: 130%;
-    line-height: 170%;
-    padding: 2em;
-    border-radius: 3em;
 
-
-}
-
-.waw-div-history{
-
-    margin-bottom: 7em;
-}
 
 .waw-fondateur {
     
@@ -102,7 +85,8 @@
     background-color: white;
     text-align: justify;
     text-justify: inter-word;
-   
+   line-height: 170%;
+font-size: 110%;
     border-radius: 3em;
 
 
@@ -155,6 +139,7 @@
  padding-top: 6em;
     padding-left: 6em;
     padding-right: 6em;
+    margin-bottom: 10em;
     
 }
 

@@ -51,7 +51,7 @@ class Exhib extends Component {
                             </div>
 
                         </Col>
-                        <Col xs={{span:8,offset:3}} md={{span:7,offset:0}} className='my-auto'>
+                        <Col xs={{span:9,offset:2}} md={{span:7,offset:0}} className='my-auto'>
                             <AnimatedOnScroll className='exhib-description-soon' animationIn='fadeInUp' isVisible={true}>
                             
                                 La Breakfast Exhibition, organisée par ce groupe d’amis dont la plupart sont des étudiants de l’INSEEC BS Paris, consiste à vous faire découvrir cette atmosphère en mélangeant leurs peintures, leurs musiques et leur marque de vêtements à l’aide de la promotion de ses différents produits, tout cela dans une salle décorée afin qu’elle reflète au mieux leur univers.<br></br>

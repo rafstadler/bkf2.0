@@ -27,15 +27,25 @@ class WAW extends Component {
 
                         </Col>
                     </Row>
+                    
+                    <div className=""></div>
                     <Row>
                         <Col sm={{ span: 8, offset: 2 }}><AnimatedOnScroll animationIn='fadeInUp' isVisible={true}>
 
                             <div className='waw-intro'>
-                                &nbsp;&nbsp;&nbsp;Breakfast, c’est dans un premier temps une atmosphère, une façon très particulière de vivre sa vie. Mais c’est aussi une vision du monde et des points communs qui ont rassemblé un groupe d’amis en vue de construire un <b className='waw-b'>collectif créatif</b> mêlant <b className='waw-b'>art</b> et <b className='waw-b'>musique</b>.
+                                Breakfast, c’est dans un premier temps une atmosphère, une façon très particulière de vivre sa vie. Mais c’est aussi une vision du monde et des points communs qui ont rassemblé un groupe d’amis en vue de construire un <b className='waw-b'>collectif créatif</b> mêlant <b className='waw-b'>art</b> et <b className='waw-b'>musique</b>.
+                                <br/>
+                                <br/>
+                                Bkf (abréviation de Breakfast) est <b className='waw-b'> une atmosphère </b> née de plusieurs lendemains de soirées. Nous avons pris l'habitude de boire tous ensemble une tasse de thé en fin de soirée/début de journée. Un moment de calme, de partage et de réflexion autour de nos projets et nos avenirs. <b className='waw-b'>Ce rituel</b> on le nomme aujourd’hui comme étant le « Breakfast ». Pour nous, il est devenu nécessaire de le <b className='waw-b'>partager</b> au quotidien.
+                                <br/>
+                                <br/>
+                                Nous partageons ce <b className='waw-b'> mode de vie</b> à travers notre marque de vêtements, notre façon d’être et <b className='waw-b'>nos créations</b> qu’elles soient musicales ou artistiques.
                             </div>
-                            </AnimatedOnScroll></Col>
+                            </AnimatedOnScroll>
+                        </Col>
 
                     </Row>
+                    
 
                     <Row>
                         <Col className='test'>
@@ -132,33 +142,7 @@ class WAW extends Component {
                         
                     </Row>
 
-                    <Row>
-                        <Col className='test'>
-                            <h1 className='waw-h1 d-none d-sm-block' align='center'>HISTORY</h1>
-                            <h1 className='waw-h1-mobile d-sm-none' align='center'>HISTORY</h1>
-
-                        </Col>
-                    </Row>
-                    <div className="waw-div-history">
-                        <Row>
-                            <Col sm={{ span: 8, offset: 2 }}><AnimatedOnScroll animationIn='fadeInUp' isVisible={true}>
-
-                                <div className='waw-history'>
-                                    &nbsp;&nbsp;&nbsp;Bkf (abréviation de Breakfast) est <b className='waw-b'> une atmosphère </b> née de plusieurs lendemains de soirées. Nous avons pris l'habitude de boire tous ensemble une tasse de thé en fin de soirée/début de journée. Un moment de calme, de partage et de réflexion autour de nos projets et nos avenirs. <b className='waw-b'>Ce rituel</b> on le nomme aujourd’hui comme étant le « Breakfast ». Pour nous, il est devenu nécessaire de le <b className='waw-b'>partager</b> au quotidien. 
-                                </div>
-                                </AnimatedOnScroll></Col>
-
-                        </Row>
-                        <Row>
-                            <Col sm={{ span: 8, offset: 2 }}><AnimatedOnScroll animationIn='fadeInUp' isVisible={true}>
-
-                                <div className='waw-history'>
-                                    &nbsp;&nbsp;&nbsp;Nous partageons ce <b className='waw-b'> mode de vie</b> à travers notre marque de vêtements, notre façon d’être et <b className='waw-b'>nos créations</b> qu’elles soient musicales ou artistiques.
-                                </div>
-                                </AnimatedOnScroll></Col>
-
-                        </Row>
-                    </div>
+                   
                     <Row>
                         <Col className='test'>
                             <footer className='other-footer' align="center">@BKF2020 by Stadler Raphael</footer>
