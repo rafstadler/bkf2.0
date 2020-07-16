@@ -110,9 +110,11 @@
 
 .visu {
     background-color: white;
-    padding: 2em;
     margin-top: 5em;
     border-radius: 3em;
+    box-shadow: 10px 10px 20px grey;
+    
+    
 }
 
 .visu-media {

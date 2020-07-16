@@ -56,15 +56,16 @@
 .contact-description {
     color: black;
     font-family: MyOswald;  
-    padding-top: 4em;
+    margin-top: 2em;
     text-align: justify;
     text-justify: inter-word;
     
     line-height: 170%;
     padding: 2em;
     border-radius: 3em;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
     font-weight: bold;
+    font-size: 150%;
 }
 
 .contact-description-left {
@@ -77,8 +78,9 @@
     line-height: 170%;
     padding: 2em;
     border-radius: 3em;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
     font-weight: bold;
+    font-size: 150%;
 }
 
 .contact-mail {
@@ -90,6 +92,7 @@
     background-size: cover;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    font-size: 90%;
 }
 
 .contact-mail:hover{

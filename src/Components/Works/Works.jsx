@@ -60,7 +60,7 @@ scrollToLocation = () => {
                     <div className='works-menu'> 
                         <Container align='center'>
 
-                            <AnchorLink href='#clothes' className='menu-link'>Clothes</AnchorLink>
+                            <AnchorLink href='#clothes' className='menu-link'>Clothing</AnchorLink>
                             <AnchorLink href='#painting' className='menu-link'>Painting</AnchorLink>
                             <AnchorLink href='#music' className='menu-link'>Music</AnchorLink>
                             <AnchorLink href='#tattoo' className='menu-link'>Tatouage</AnchorLink>
@@ -72,8 +72,8 @@ scrollToLocation = () => {
                     <Container align='center' fluid>
                         <Row>
                             <Col id="clothes">
-                                <h1 className='works-h1-mobile d-sm-none' align='center'>CLOTHES</h1>
-                                <h1 className='works-h1 d-none d-sm-block' align='center'>CLOTHES</h1>
+                                <h1 className='works-h1-mobile d-sm-none' align='center'>CLOTHING</h1>
+                                <h1 className='works-h1 d-none d-sm-block' align='center'>CLOTHING</h1>
                                  
                             </Col>
                         </Row>  
@@ -162,7 +162,7 @@ scrollToLocation = () => {
                             </Col>
                             <Col md={6}>
                                 <AnimatedOnScroll animationIn='fadeInUp' animationInDuration='1200' isVisible={true}>
-                                    <div>
+                                    <div style={{'padding':'3em'}}>
                                         <Image className='visu' src={require('../../img/nuage.png')} fluid></Image>
                                     </div>
 
@@ -189,7 +189,7 @@ scrollToLocation = () => {
 
                             <Col  md={{ span: 6, offset: 1 }}>
                                 <AnimatedOnScroll animationIn='fadeInUp' animationInDuration='1200' isVisible={true}>
-                                    <div>
+                                    <div style={{'padding':'3em'}}>
                                         <Image className='visu' src={require('../../img/nuage.png')} fluid></Image>
                                     </div>
 

@@ -18,8 +18,44 @@ class Contact extends Component {
                 <div className='contact-central'></div>
                 <div className='page'>
 
-                    <Container className="contact-body" fluid align='center'>
-
+                    <Container className="contact-body" fluid >
+                        <Row className="contact-item">
+                            <Col md={{span:2,offset:1}}>
+                                <h1 className='contact-h1  d-none d-sm-block my-auto' align='center' >&nbsp;&nbsp;CONTACT</h1>
+                                <h1 className='contact-h1-mobile  d-sm-none my-auto' align='center'>CONTACT</h1>
+                            </Col>
+                            <Col md={{span:6,offset:0}}>
+                                <div className='contact-description'>
+                                    
+                                    Business autour d'un thé :<br />&nbsp;&nbsp;<a href="mailto:ludo_garni@hotmail.fr" className="contact-mail">ludo.garni@hotmail.fr</a>
+                                    
+                                    <br /><br />
+                                    
+                                   
+                                    Design/Développement web :<br />&nbsp;&nbsp;<a href="mailto:raph.stadler@gmail.com" className="contact-mail">raph.stadler@gmail.com</a>
+                                    
+                                    
+                            
+                                </div>
+                                
+                                <div className='contact-description-left'>
+                                   
+                                    
+                                    Ou contactez-nous directement via instagram:<br />
+                                    <a href="https://www.instagram.com/dududavies_/" className="contact-mail">dududavies_</a><br />
+                                    <a href="https://www.instagram.com/emota.lov/" className="contact-mail">emota.lov</a><br />
+                                    <a href="https://www.instagram.com/tchap.bkf/" className="contact-mail">tchap.bkf</a><br />
+                                   
+                            
+                                </div>
+                            </Col>
+                            <Col md={{span:2,offset:0}} style={{'alignSelf': 'flex-end'}}>
+                                <h1 className='contact-h1  d-none d-sm-block my-auto ' align='center' >&nbsp;&nbsp;&nbsp;&nbsp;NUDES</h1>
+                                <h1 className='contact-h1-mobile  d-sm-none my-auto' align='center'>&nbsp;&nbsp;&nbsp;&nbsp;NUDES</h1>
+                            </Col>
+                        </Row>
+                        {/*
+                        
                         <Row className="contact-item">
                             <Col  xs={{span:1,offset:0}} md={{span:2,offset:2}}>
                                
@@ -31,9 +67,14 @@ class Contact extends Component {
                             <Col xs={{span:8,offset:2}} md={{span:7,offset:0}} className='my-auto'>
                                 <div className='contact-description'>
                                     
-                                    Business autour d'un thé :<br />&nbsp;&nbsp;<a href="mailto:ludo_garni@hotmail.fr" className="contact-mail">ludo.garni@hotmail.fr</a> &nbsp;/ &nbsp;0745686543<br /><br />
+                                    Business autour d'un thé :<br />&nbsp;&nbsp;<a href="mailto:ludo_garni@hotmail.fr" className="contact-mail">ludo.garni@hotmail.fr</a>
                                     
+                                    <br /><br />
+                                   
+                                
                                    Tatouage : <br />&nbsp;&nbsp;<a href="https://www.instagram.com/emota_design/" className="contact-mail">emota_design</a><br /><br />
+                                    
+                                    
                                    
                                     Design/Développement web :<br />&nbsp;&nbsp;<a href="mailto:raph.stadler@gmail.com" className="contact-mail">raph.stadler@gmail.com</a><br /><br />
                                     
@@ -49,7 +90,7 @@ class Contact extends Component {
                                 <div className='contact-description-left'>
                                    
                                     
-                                    Ou contactez nous directement via instagram:<br />
+                                    Ou contactez-nous directement via instagram:<br />
                                     <a href="https://www.instagram.com/dududavies_/" className="contact-mail">dududavies_</a><br />
                                     <a href="https://www.instagram.com/emota.lov/" className="contact-mail">emota.lov</a><br />
                                     <a href="https://www.instagram.com/tchap.bkf/" className="contact-mail">tchap.bkf</a><br />
@@ -67,6 +108,10 @@ class Contact extends Component {
                             </Col>
                         </Row>
 
+                            
+                        */}
+
+                        
 
                     </Container>
 
