@@ -36,15 +36,21 @@ class App extends Component {
             <Router>
                 <Route render={({ location }) => (
                         <div>
-
+                           
                             <Navbar className={this.state.page.pathname==="/" ? 'transparent-nav' : 'white-nav'} fixed='top' align='center'>
-
-
-                                <Col sm={2} className='d-none d-sm-none d-lg-block'><Link to='/' className={this.state.page.pathname==="/" ? 'nav-brand-white' : 'nav-brand' }>&nbsp;Breakfast&nbsp;</Link></Col>
+                                
+                                <Container fluid>
+                                
+                                
+                                <Col sm={12} className='d-none d-sm-none d-lg-block'><Link to='/' className={this.state.page.pathname==="/" ? 'nav-brand-white' : 'nav-brand' }>&nbsp;Breakfast&nbsp;</Link></Col>
                                 
                                 <Col sm={8} className='d-lg-none d-sm-block'><Link to='/' className={this.state.page.pathname==="/" ? 'nav-brand-white' : 'nav-brand' }>&nbsp;Breakfast&nbsp;</Link></Col>
+                                        
+                                      
+                                  </Container>
                                 
-                                
+                               
+                   
                                 <Col sm={2} className='d-none d-sm-none d-lg-block'><Link to='/works#clothes' className={this.state.page.pathname==="/" ? 'nav-link-white' : 'nav-link' } style={this.state.page.pathname==="/works" ? {'text-decoration':'line-through underline'} : {}}> Works </Link></Col>
                                 
                                 <Col sm={2} className='d-none d-sm-none d-lg-block'><Link to='/exhib' className={this.state.page.pathname==="/" ? 'nav-link-white' : 'nav-link' } style={this.state.page.pathname==="/exhib" ? {'text-decoration':'line-through underline'} : {}}> Exhibitions </Link></Col>
@@ -53,6 +59,7 @@ class App extends Component {
                                 <Col sm={2} className='d-none d-sm-none d-lg-block'>
                                     {isBrowser ? <a target="_blank" rel="noopener noreferrer" href='https://www.instagram.com/breakfast_paris/' className={this.state.page.pathname==="/" ? 'nav-link-white' : 'nav-link' } align='center' >Instagram</a> : <a href='instagram://user?username=breakfast_paris' className={this.state.page.pathname==="/" ? 'nav-link-white' : 'nav-link' } align='center' style={{'color':'black'}}>Instagram</a>}
                                 </Col>
+                            
 
 
                                 <Col sm={2} className="header-drop d-lg-none d-sm-block">
@@ -68,9 +75,9 @@ class App extends Component {
 
                                     </NavDropdown>
                                 </Col>
-
-                            </Navbar>
-                            
+                                    
+                                  
+                            </Navbar> 
                             <ScrollToTop />
 
 

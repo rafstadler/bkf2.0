@@ -101,33 +101,26 @@ scrollToLocation = () => {
                         </Row>
                         
                         <Row className="visus-clothes">
-                            <Col md={3}>
-                                <Image className='visu-clothes' src={require('../../img/nuage.png')} fluid></Image>
+                            <Col md={4}>
+                                <Image className='visu-clothes' src={require('../../img/pull_bkf_orange.png')} fluid></Image>
+                            </Col>
+                            <Col md={4}>
+                                <Image className='visu-clothes' src={require('../../img/pull_bkf_rose.png')} fluid></Image>
+                            </Col>
+                            <Col md={4}>
+                                <Image className='visu-clothes' src={require('../../img/pull_bkf_noir.png')} fluid></Image>
                             </Col>
                             <Col md={3}>
-                                <Image className='visu-clothes' src={require('../../img/nuage.png')} fluid></Image>
+                                <Image className='visu-clothes' src={require('../../img/pull_bkf_orange.png')} fluid></Image>
                             </Col>
                             <Col md={3}>
-                                <Image className='visu-clothes' src={require('../../img/nuage.png')} fluid></Image>
+                                <Image className='visu-clothes' src={require('../../img/pull_bkf_orange.png')} fluid></Image>
                             </Col>
                             <Col md={3}>
-                                <Image className='visu-clothes' src={require('../../img/nuage.png')} fluid></Image>
+                                <Image className='visu-clothes' src={require('../../img/pull_bkf_orange.png')} fluid></Image>
                             </Col>
-                            
                             <Col md={3}>
-                                <Image className='visu-clothes' src={require('../../img/nuage.png')} fluid></Image>
-                            </Col>
-                            
-                            <Col md={3}>
-                                <Image className='visu-clothes' src={require('../../img/nuage.png')} fluid></Image>
-                            </Col>
-                            
-                            <Col md={3}>
-                                <Image className='visu-clothes' src={require('../../img/nuage.png')} fluid></Image>
-                            </Col>
-                            
-                            <Col md={3}>
-                                <Image className='visu-clothes' src={require('../../img/nuage.png')} fluid></Image>
+                                <Image className='visu-clothes' src={require('../../img/pull_bkf_orange.png')} fluid></Image>
                             </Col>
                             
                             
