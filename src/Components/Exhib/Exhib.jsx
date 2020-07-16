@@ -63,8 +63,8 @@ class Exhib extends Component {
                     </Row>
                     <Row>
                         <Col>
-                            <h1 className='exhib-h1 d-none d-sm-block' align='center'>2019</h1>
-                            <h1 className='exhib-h1-mobile d-sm-none' align='center'>2019</h1>
+                            <h1 className='exhib-h1 d-none d-sm-block' align='center'>2020</h1>
+                            <h1 className='exhib-h1-mobile d-sm-none' align='center'>2020</h1>
                         </Col>
                     </Row>
                     
@@ -72,8 +72,8 @@ class Exhib extends Component {
                         <Col className='exhib-description' md={{ span: 4, offset: 1 }}>
                             <AnimatedOnScroll animationIn='fadeInUpBig' animationInDuration='1200' isVisible={true}>
                                     <div>
-                                        <h2 className='exhib-h2'>-Triptyque de Nuages-</h2>
-                                        <h2 className='exhib-h2'>- Ludovic 2019 -</h2>
+                                        <h2 className='exhib-h2'>- Breakfast Exhibition -</h2>
+                                        <h2 className='exhib-h2'>- Le Point Éphémère Paris  06/01 -</h2>
                                         <div className='exhib-oeuvre'>
                                             dj cioqjd cxiojze sdic zeiucd xzeuidhs cxieodjs cpxiuoehd vciujh rdiufh czeiukqshdf xiuh eiudhsc xizeldkushd xi odijzojd oi coij eoij oiehjz iu hfviuh zeiuh fiu ziedj xoqhzuzidjh iued ci eiv hieuhvkjndckjsnck zej o nci nc ke ck eic kuhjsb vcij;hs nidkjhcnx kq;ujhkj d ukmudj nduis kjdicu xuskd yux kzjqsdydjxn sjdjs fndxuhqjsh sudx  zsij xqks jd xizks.
                                         </div>
@@ -117,24 +117,156 @@ class Exhib extends Component {
 
                     <Row>
                         <Col>
+                            <h1 className='exhib-h1 d-none d-sm-block' align='center'>2019</h1>
+                            <h1 className='exhib-h1-mobile d-sm-none' align='center'>2019</h1>
+                        </Col>
+                    </Row>
+                    <Row className="expo align-items-center">
+                         <Col md={{ span: 6, offset: 1 }}>
+
+                            <Carousel showArrows={true} className='exhib-carousel'>
+                            
+
+                                    {/* 
+                                        <div>
+                                        <video autoplay="autoplay" loop="loop" muted className="video">
+                                            <source src={require('../../img/acceuilbq.mp4')} type="video/mp4"/>
+                                        </video>
+                                        </div>
+                                    */}
+
+                              
+                                <div>
+                                    <img src={require('../../img/nuage.png')} />      
+                                </div>
+                                <div>
+                                    <img src={require('../../img/nuage.png')} />               
+                                </div>
+                                <div>
+                                    <img src={require('../../img/nuage.png')} />                        
+                                </div>
+                                <div>
+                                    <img src={require('../../img/nuage.png')} />         
+                                </div>
+                                <div>
+                                    <img src={require('../../img/nuage.png')} />
+                                </div>
+                            </Carousel>
+                        </Col>
+                        <Col className='exhib-description' md={{ span: 4, offset: 0 }}>
+                            <AnimatedOnScroll animationIn='fadeInUpBig' animationInDuration='1200' isVisible={true}>
+                                    <div>
+                                        <h2 className='exhib-h2'>- Breakfast Fashion Show -</h2>
+                                        <h2 className='exhib-h2'>- Espace Jules Verne à Livry Gargan 29/03 -</h2>
+                                        <div className='exhib-oeuvre'>
+                                            dj cioqjd cxiojze sdic zeiucd xzeuidhs cxieodjs cpxiuoehd vciujh rdiufh czeiukqshdf xiuh eiudhsc xizeldkushd xi odijzojd oi coij eoij oiehjz iu hfviuh zeiuh fiu ziedj xoqhzuzidjh iued ci eiv hieuhvkjndckjsnck zej o nci nc ke ck eic kuhjsb vcij;hs nidkjhcnx kq;ujhkj d ukmudj nduis kjdicu xuskd yux kzjqsdydjxn sjdjs fndxuhqjsh sudx  zsij xqks jd xizks.
+                                        </div>
+
+                                    </div>
+                                </AnimatedOnScroll>
+                        </Col>
+                       
+                    </Row>
+                    <Row className="expo align-items-center">
+                        <Col className='exhib-description' md={{ span: 4, offset: 1 }}>
+                            <AnimatedOnScroll animationIn='fadeInUpBig' animationInDuration='1200' isVisible={true}>
+                                    <div>
+                                        <h2 className='exhib-h2'>- Exposition BKF x BDA INSEEC -</h2>
+                                        <h2 className='exhib-h2'>- Le Point Éphémère Paris  07/01 -</h2>
+                                        <div className='exhib-oeuvre'>
+                                            dj cioqjd cxiojze sdic zeiucd xzeuidhs cxieodjs cpxiuoehd vciujh rdiufh czeiukqshdf xiuh eiudhsc xizeldkushd xi odijzojd oi coij eoij oiehjz iu hfviuh zeiuh fiu ziedj xoqhzuzidjh iued ci eiv hieuhvkjndckjsnck zej o nci nc ke ck eic kuhjsb vcij;hs nidkjhcnx kq;ujhkj d ukmudj nduis kjdicu xuskd yux kzjqsdydjxn sjdjs fndxuhqjsh sudx  zsij xqks jd xizks.
+                                        </div>
+
+                                    </div>
+                                </AnimatedOnScroll>
+                        </Col>
+                        <Col md={6}>
+
+                            <Carousel showArrows={true} className='exhib-carousel'>
+                            
+
+                                    {/* 
+                                        <div>
+                                        <video autoplay="autoplay" loop="loop" muted className="video">
+                                            <source src={require('../../img/acceuilbq.mp4')} type="video/mp4"/>
+                                        </video>
+                                        </div>
+                                    */}
+
+                              
+                                <div>
+                                    <img src={require('../../img/nuage.png')} />      
+                                </div>
+                                <div>
+                                    <img src={require('../../img/nuage.png')} />               
+                                </div>
+                                <div>
+                                    <img src={require('../../img/nuage.png')} />                        
+                                </div>
+                                <div>
+                                    <img src={require('../../img/nuage.png')} />         
+                                </div>
+                                <div>
+                                    <img src={require('../../img/nuage.png')} />
+                                </div>
+                            </Carousel>
+                        </Col>
+                    </Row>
+
+                    <Row>
+                        <Col>
                             <h1 className='exhib-h1 d-none d-sm-block' align='center'>2018</h1>
                             <h1 className='exhib-h1-mobile d-sm-none' align='center'>2018</h1>
                         </Col>
                     </Row>
+                    <Row className="expo align-items-center">
+                         <Col md={{ span: 6, offset: 1 }}>
 
-                    <Row>
-                        <Col>
-                            <h1 className='exhib-h1 d-none d-sm-block' align='center'>2017</h1>
-                            <h1 className='exhib-h1-mobile d-sm-none' align='center'>2017</h1>
+                            <Carousel showArrows={true} className='exhib-carousel'>
+                            
+
+                                    {/* 
+                                        <div>
+                                        <video autoplay="autoplay" loop="loop" muted className="video">
+                                            <source src={require('../../img/acceuilbq.mp4')} type="video/mp4"/>
+                                        </video>
+                                        </div>
+                                    */}
+
+                              
+                                <div>
+                                    <img src={require('../../img/nuage.png')} />      
+                                </div>
+                                <div>
+                                    <img src={require('../../img/nuage.png')} />               
+                                </div>
+                                <div>
+                                    <img src={require('../../img/nuage.png')} />                        
+                                </div>
+                                <div>
+                                    <img src={require('../../img/nuage.png')} />         
+                                </div>
+                                <div>
+                                    <img src={require('../../img/nuage.png')} />
+                                </div>
+                            </Carousel>
                         </Col>
+                        <Col className='exhib-description' md={{ span: 4, offset: 0 }}>
+                            <AnimatedOnScroll animationIn='fadeInUpBig' animationInDuration='1200' isVisible={true}>
+                                    <div>
+                                        <h2 className='exhib-h2'>- Breakfast Exposition -</h2>
+                                        <h2 className='exhib-h2'>- Espace Jules Verne à Livry Gargan 27/01 -</h2>
+                                        <div className='exhib-oeuvre'>
+                                            dj cioqjd cxiojze sdic zeiucd xzeuidhs cxieodjs cpxiuoehd vciujh rdiufh czeiukqshdf xiuh eiudhsc xizeldkushd xi odijzojd oi coij eoij oiehjz iu hfviuh zeiuh fiu ziedj xoqhzuzidjh iued ci eiv hieuhvkjndckjsnck zej o nci nc ke ck eic kuhjsb vcij;hs nidkjhcnx kq;ujhkj d ukmudj nduis kjdicu xuskd yux kzjqsdydjxn sjdjs fndxuhqjsh sudx  zsij xqks jd xizks.
+                                        </div>
+
+                                    </div>
+                                </AnimatedOnScroll>
+                        </Col>
+                       
                     </Row>
 
-                    <Row>
-                        <Col>
-                            <h1 className='exhib-h1 d-none d-sm-block' align='center'>2016</h1>
-                            <h1 className='exhib-h1-mobile d-sm-none' align='center'>2016</h1>
-                        </Col>
-                    </Row>
+                   
 
 
 

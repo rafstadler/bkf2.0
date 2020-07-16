@@ -110,83 +110,33 @@ scrollToLocation = () => {
                             <Col md={4}>
                                 <Image className='visu-clothes' src={require('../../img/pull_bkf_noir.png')} fluid></Image>
                             </Col>
+                            
                             <Col md={3}>
-                                <Image className='visu-clothes' src={require('../../img/pull_bkf_orange.png')} fluid></Image>
+                                <Image className='visu-clothes' src={require('../../img/zipvert.png')} fluid></Image>
+                                </Col>
+                                <Col md={3}>
+                                <Image className='visu-clothes' src={require('../../img/zipnoir.png')} fluid></Image>
                             </Col>
-                            <Col md={3}>
-                                <Image className='visu-clothes' src={require('../../img/pull_bkf_orange.png')} fluid></Image>
+                                <Col md={3}>
+                                <Image className='visu-clothes' src={require('../../img/zipblanc.png')} fluid></Image>
                             </Col>
+                            
                             <Col md={3}>
-                                <Image className='visu-clothes' src={require('../../img/pull_bkf_orange.png')} fluid></Image>
+                                <Image className='visu-clothes' src={require('../../img/ziprouge.png')} fluid></Image>
                             </Col>
-                            <Col md={3}>
-                                <Image className='visu-clothes' src={require('../../img/pull_bkf_orange.png')} fluid></Image>
+                            
+                            <Col md={4}>
+                                <Image className='visu-clothes' src={require('../../img/tee2rouge.png')} fluid></Image>
+                            </Col>
+                            <Col md={4}>
+                                <Image className='visu-clothes' src={require('../../img/tee1.png')} fluid></Image>
+                            </Col>
+                            <Col md={4}>
+                                <Image className='visu-clothes' src={require('../../img/tee2noir.png')} fluid></Image>
                             </Col>
                             
                             
-                        </Row>
-                        <Row className="oeuvre align-items-center">
-                            <Col className='works-description' md={{ span: 4, offset: 1 }}>
-                                <AnimatedOnScroll animationIn='fadeInUpBig' animationInDuration='1200' isVisible={true}>
-                                    <div>
-                                        <h2 className='works-h2'>-Triptyque de Nuages-</h2>
-                                        <h2 className='works-h2'>- Ludovic 2019 -</h2>
-                                        <div className='works-oeuvre'>
-                                            dj cioqjd cxiojze sdic zeiucd xzeuidhs cxieodjs cpxiuoehd vciujh rdiufh czeiukqshdf xiuh eiudhsc xizeldkushd xi odijzojd oi coij eoij oiehjz iu hfviuh zeiuh fiu ziedj xoqhzuzidjh iued ci eiv hieuhvkjndckjsnck zej o nci nc ke ck eic kuhjsb vcij;hs nidkjhcnx kq;ujhkj d ukmudj nduis kjdicu xuskd yux kzjqsdydjxn sjdjs fndxuhqjsh sudx  zsij xqks jd xizks.
-                                        </div>
-
-                                    </div>
-                                </AnimatedOnScroll>
-                            </Col>
-                            <Col md={6}>
-                                <AnimatedOnScroll animationIn='fadeInUp' animationInDuration='1200' isVisible={true}>
-                                    <div>
-                                        <Image className='visu' src={require('../../img/nuage.png')} fluid></Image>
-                                    </div>
-
-                                </AnimatedOnScroll>
-                            </Col>
-
-
-                        </Row>
-
-                        <Row className="oeuvre align-items-center">
                             
-                            <Col className='works-description d-md-none' md={4}>
-                                <AnimatedOnScroll animationIn='fadeInUpBig' animationInDuration='1200' isVisible={true}>
-                                    <div>
-                                        <h2 className='works-h2-left'>-Triptyque de Nuages-</h2>
-                                        <h2 className='works-h2-left'>- Ludovic 2019 -</h2>
-                                        <div className='works-oeuvre'>
-                                            dj cioqjd cxiojze sdic zeiucd xzeuidhs cxieodjs cpxiuoehd vciujh rdiufh czeiukqshdf xiuh eiudhsc xizeldkushd xi odijzojd oi coij eoij oiehjz iu hfviuh zeiuh fiu ziedj xoqhzuzidjh iued ci eiv hieuhvkjndckjsnck zej o nci nc ke ck eic kuhjsb vcij;hs nidkjhcnx kq;ujhkj d ukmudj nduis kjdicu xuskd yux kzjqsdydjxn sjdjs fndxuhqjsh sudx  zsij xqks jd xizks.
-                                        </div>
-
-                                    </div>
-                                </AnimatedOnScroll>
-                            </Col>
-
-                            <Col md={{ span: 6, offset: 1 }}>
-                                <AnimatedOnScroll animationIn='fadeInUp' animationInDuration='1200' isVisible={true}>
-                                    <div>
-                                        <Image className='visu' src={require('../../img/nuage.png')} fluid></Image>
-                                    </div>
-
-                                </AnimatedOnScroll>
-                            </Col>
-                            <Col className='works-description d-none d-md-block' md={4}>
-                                <AnimatedOnScroll animationIn='fadeInUpBig' animationInDuration='1200' isVisible={true}>
-                                    <div>
-                                        <h2 className='works-h2-left'>-Triptyque de Nuages-</h2>
-                                        <h2 className='works-h2-left'>- Ludovic 2019 -</h2>
-                                        <div className='works-oeuvre'>
-                                            dj cioqjd cxiojze sdic zeiucd xzeuidhs cxieodjs cpxiuoehd vciujh rdiufh czeiukqshdf xiuh eiudhsc xizeldkushd xi odijzojd oi coij eoij oiehjz iu hfviuh zeiuh fiu ziedj xoqhzuzidjh iued ci eiv hieuhvkjndckjsnck zej o nci nc ke ck eic kuhjsb vcij;hs nidkjhcnx kq;ujhkj d ukmudj nduis kjdicu xuskd yux kzjqsdydjxn sjdjs fndxuhqjsh sudx  zsij xqks jd xizks.
-                                        </div>
-
-                                    </div>
-                                </AnimatedOnScroll>
-                            </Col>
-
-
                         </Row>
                         
                         
