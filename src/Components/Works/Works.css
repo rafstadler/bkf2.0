@@ -183,20 +183,22 @@
 }
 
 .visus-clothes {
- padding: 6em;
+ padding: 3em;
 }
 
 .shop-link{
     color: white;
-    background-image: url('../../img/nude.jpg');
-    background-attachment: fixed;
-    background-size: cover;
+   
+
+    background-image: url('../../img/nude.jpg'); 
+   background-attachment: scroll x;
+   
     font-size: 1.1em;
     font-family: MyOpen;
-    padding-top:1em;
-    padding-bottom: 1em;
-    padding-left: 4em;
-    padding-right: 4em;
+    padding-top:0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 3em;
+    padding-right: 3em;
     border-radius: 1.5em;
 }
 

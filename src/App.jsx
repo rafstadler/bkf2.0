@@ -45,9 +45,10 @@ class App extends Component {
                                 <Col sm={8} className='d-lg-none d-sm-block'><Link to='/' className={this.state.page.pathname==="/" ? 'nav-brand-white' : 'nav-brand' }>&nbsp;Breakfast&nbsp;</Link></Col>
                                 
                                 
-                                <Col sm={2} className='d-none d-sm-none d-lg-block'><Link to='/who_are_we' className={this.state.page.pathname==="/" ? 'nav-link-white' : 'nav-link' } style={this.state.page.pathname==="/who_are_we" ? {'text-decoration':'line-through underline'} : {}}>Who Are We</Link></Col>
                                 <Col sm={2} className='d-none d-sm-none d-lg-block'><Link to='/works#clothes' className={this.state.page.pathname==="/" ? 'nav-link-white' : 'nav-link' } style={this.state.page.pathname==="/works" ? {'text-decoration':'line-through underline'} : {}}> Works </Link></Col>
+                                
                                 <Col sm={2} className='d-none d-sm-none d-lg-block'><Link to='/exhib' className={this.state.page.pathname==="/" ? 'nav-link-white' : 'nav-link' } style={this.state.page.pathname==="/exhib" ? {'text-decoration':'line-through underline'} : {}}> Exhibitions </Link></Col>
+                                <Col sm={2} className='d-none d-sm-none d-lg-block'><Link to='/who_are_we' className={this.state.page.pathname==="/" ? 'nav-link-white' : 'nav-link' } style={this.state.page.pathname==="/who_are_we" ? {'text-decoration':'line-through underline'} : {}}>Who Are We</Link></Col>
                                 <Col sm={2} className='d-none d-sm-none d-lg-block'><Link to='/contact' className={this.state.page.pathname==="/" ? 'nav-link-white' : 'nav-link' } style={this.state.page.pathname==="/contact" ? {'text-decoration':'line-through underline'} : {}}> Contacts </Link></Col>
                                 <Col sm={2} className='d-none d-sm-none d-lg-block'>
                                     {isBrowser ? <a target="_blank" rel="noopener noreferrer" href='https://www.instagram.com/breakfast_paris/' className={this.state.page.pathname==="/" ? 'nav-link-white' : 'nav-link' } align='center' >Instagram</a> : <a href='instagram://user?username=breakfast_paris' className={this.state.page.pathname==="/" ? 'nav-link-white' : 'nav-link' } align='center' style={{'color':'black'}}>Instagram</a>}
@@ -56,9 +57,11 @@ class App extends Component {
 
                                 <Col sm={2} className="header-drop d-lg-none d-sm-block">
                                     <NavDropdown alignRight title={this.props.page} id={this.state.page.pathname==="/" ? 'nav-dropdown-white' : 'nav-dropdown' }>
-                                        <NavDropdown.Item><Link to='/who_are_we' className='nav-link' align='center' style={this.state.page.pathname==="/who_are_we" ? {'text-decoration':'line-through underline','color':'black'} : {'color':'black'}}>Who Are We</Link></NavDropdown.Item>
+                                        
                                         <NavDropdown.Item><Link to='/works#clothes' className='nav-link' align='center' style={this.state.page.pathname==="/works" ? {'text-decoration':'line-through underline','color':'black'} : {'color':'black'}}>Works</Link></NavDropdown.Item>
+                                        
                                         <NavDropdown.Item><Link to='/exhib' className='nav-link'  align='center' style={this.state.page.pathname==="/exhib" ? {'text-decoration':'line-through underline','color':'black'} : {'color':'black'}}>Exhibitions</Link></NavDropdown.Item>
+                                        <NavDropdown.Item><Link to='/who_are_we' className='nav-link' align='center' style={this.state.page.pathname==="/who_are_we" ? {'text-decoration':'line-through underline','color':'black'} : {'color':'black'}}>Who Are We</Link></NavDropdown.Item>
                                         <NavDropdown.Item><Link to='/contact' className='nav-link' align='center' style={this.state.page.pathname==="/contact" ? {'text-decoration':'line-through underline','color':'black'} : {'color':'black'}}>Contacts</Link></NavDropdown.Item>
                                         {isBrowser ? <a target="_blank" rel="noopener noreferrer" href='https://www.instagram.com/breakfast_paris/' className='nav-link' align='center' style={{'color':'black'}}>Instagram</a> : <a href='instagram://user?username=breakfast_paris' className='nav-link' align='center' style={{'color':'black'}}>Instagram</a>}
                                         

@@ -49,8 +49,8 @@ class WAW extends Component {
 
                     <Row>
                         <Col className='test'>
-                            <h1 className='waw-h1 d-none d-sm-block' align='center'>FUNDERS</h1>
-                            <h1 className='waw-h1-mobile d-sm-none' align='center'>FUNDERS</h1>
+                            <h1 className='waw-h1 d-none d-sm-block' align='center'>FOUNDERS</h1>
+                            <h1 className='waw-h1-mobile d-sm-none' align='center'>FOUNDERS</h1>
                         </Col>
                     </Row>
 
@@ -108,7 +108,7 @@ class WAW extends Component {
                         <Col md={{ span: 4, offset: 1 }}>
                             <AnimatedOnScroll animationIn='fadeInUpBig' animationInDuration='1500' isVisible={true}>
                                 <div className='waw-fondateur'>
-                                    <h2 className='waw-h2'>  Tchap,</h2>membre fondateur du collectif créatif Breakfast Paris, est un <Link to="/works#music"><b className='waw-link waw-b'>rappeur</b></Link>,<b className='waw-b'>danseur</b>, event planner et commercial. Tout en participant au bon fonctionnement de la marque Breakfast Paris et de la mise en place des évènements avec Ludovic Garni, Tchap a récemment sorti des titres tels que Trouble, En Scène ou encore Replay.
+                                    <h2 className='waw-h2'>  Tchap,</h2>membre fondateur du collectif créatif Breakfast Paris, est un <Link to="/works#music"><b className='waw-link waw-b'>rappeur</b></Link>, <b className='waw-b'>danseur</b>, event planner et commercial. Tout en participant au bon fonctionnement de la marque Breakfast Paris et de la mise en place des évènements avec Ludovic Garni, Tchap a récemment sorti des titres tels que Trouble, En Scène ou encore Replay.
                                 </div>
                             </AnimatedOnScroll>
                         </Col>
