@@ -102,37 +102,37 @@ scrollToLocation = () => {
                         
                         <Row className="visus-clothes">
                             <Col md={4}>
-                                <Image className='visu-clothes' src={require('../../img/pull_bkf_orange.png')} fluid></Image>
+                                <Image className='visu-clothes' src='https://firstbkf.s3.us-east-2.amazonaws.com/pull_bkf_orange.png' fluid></Image>
                             </Col>
                             <Col md={4}>
-                                <Image className='visu-clothes' src={require('../../img/pull_bkf_rose.png')} fluid></Image>
+                                <Image className='visu-clothes' src='https://firstbkf.s3.us-east-2.amazonaws.com/pull_bkf_rose.png' fluid></Image>
                             </Col>
                             <Col md={4}>
-                                <Image className='visu-clothes' src={require('../../img/pull_bkf_noir.png')} fluid></Image>
+                                <Image className='visu-clothes' src='https://firstbkf.s3.us-east-2.amazonaws.com/pull_bkf_noir.png' fluid></Image>
                             </Col>
                             
                             <Col md={3}>
-                                <Image className='visu-clothes' src={require('../../img/zipvert.png')} fluid></Image>
+                                <Image className='visu-clothes' src='https://firstbkf.s3.us-east-2.amazonaws.com/zipvert.png' fluid></Image>
                                 </Col>
                                 <Col md={3}>
-                                <Image className='visu-clothes' src={require('../../img/zipnoir.png')} fluid></Image>
+                                <Image className='visu-clothes' src='https://firstbkf.s3.us-east-2.amazonaws.com/zipnoir.png' fluid></Image>
                             </Col>
                                 <Col md={3}>
-                                <Image className='visu-clothes' src={require('../../img/zipblanc.png')} fluid></Image>
+                                <Image className='visu-clothes' src='https://firstbkf.s3.us-east-2.amazonaws.com/zipblanc.png' fluid></Image>
                             </Col>
                             
                             <Col md={3}>
-                                <Image className='visu-clothes' src={require('../../img/ziprouge.png')} fluid></Image>
+                                <Image className='visu-clothes' src='https://firstbkf.s3.us-east-2.amazonaws.com/ziprouge.png' fluid></Image>
                             </Col>
                             
                             <Col md={4}>
-                                <Image className='visu-clothes' src={require('../../img/tee2rouge.png')} fluid></Image>
+                                <Image className='visu-clothes' src='https://firstbkf.s3.us-east-2.amazonaws.com/tee2rouge.png' fluid></Image>
                             </Col>
                             <Col md={4}>
-                                <Image className='visu-clothes' src={require('../../img/tee1.png')} fluid></Image>
+                                <Image className='visu-clothes' src='https://firstbkf.s3.us-east-2.amazonaws.com/tee1.png' fluid></Image>
                             </Col>
                             <Col md={4}>
-                                <Image className='visu-clothes' src={require('../../img/tee2noir.png')} fluid></Image>
+                                <Image className='visu-clothes' src='https://firstbkf.s3.us-east-2.amazonaws.com/tee2noir.png' fluid></Image>
                             </Col>
                             
                             
@@ -163,7 +163,7 @@ scrollToLocation = () => {
                             <Col md={6}>
                                 <AnimatedOnScroll animationIn='fadeInUp' animationInDuration='1200' isVisible={true}>
                                     <div style={{'padding':'3em'}}>
-                                        <Image className='visu' src={require('../../img/nuage.png')} fluid></Image>
+                                        <Image className='visu' src='https://firstbkf.s3.us-east-2.amazonaws.com/nuage.png' fluid></Image>
                                     </div>
 
                                 </AnimatedOnScroll>
@@ -190,7 +190,7 @@ scrollToLocation = () => {
                             <Col  md={{ span: 6, offset: 1 }}>
                                 <AnimatedOnScroll animationIn='fadeInUp' animationInDuration='1200' isVisible={true}>
                                     <div style={{'padding':'3em'}}>
-                                        <Image className='visu' src={require('../../img/nuage.png')} fluid></Image>
+                                        <Image className='visu' src='https://firstbkf.s3.us-east-2.amazonaws.com/nuage.png' fluid></Image>
                                     </div>
 
                                 </AnimatedOnScroll>

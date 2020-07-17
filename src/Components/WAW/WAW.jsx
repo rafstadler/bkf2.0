@@ -65,7 +65,7 @@ class WAW extends Component {
                         <Col md={6}>
                             <AnimatedOnScroll animationIn='fadeInUp' animationInDuration='1200' isVisible={true}>
                                 <div>
-                                    <Image className='image-fondateur' src={require('../../img/dudu.png')} fluid></Image>
+                                    <Image className='image-fondateur' src='https://firstbkf.s3.us-east-2.amazonaws.com/dudu.png' fluid></Image>
                                 </div>
 
                             </AnimatedOnScroll>
@@ -87,7 +87,7 @@ class WAW extends Component {
                         <Col md={{ span: 6, offset: 1 }}>
                             <AnimatedOnScroll animationIn='fadeInUp' animationInDuration='1200' isVisible={true}>
                                 <div>
-                                    <Image className='image-fondateur' src={require('../../img/emota.png')} fluid></Image>
+                                    <Image className='image-fondateur' src='https://firstbkf.s3.us-east-2.amazonaws.com/emota.png' fluid></Image>
                                 </div>
 
                             </AnimatedOnScroll>
@@ -115,7 +115,7 @@ class WAW extends Component {
                         <Col md={6}>
                             <AnimatedOnScroll animationIn='fadeInUp' animationInDuration='1200' isVisible={true}>
                                 <div>
-                                    <Image className='image-fondateur' src={require('../../img/tchap.png')} fluid></Image>
+                                    <Image className='image-fondateur' src='https://firstbkf.s3.us-east-2.amazonaws.com/tchap.png' fluid></Image>
                                 </div>
 
                             </AnimatedOnScroll>

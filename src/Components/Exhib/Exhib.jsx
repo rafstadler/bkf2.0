@@ -96,20 +96,12 @@ class Exhib extends Component {
 
                               
                                 <div>
-                                    <img src={require('../../img/nuage.png')} />      
+                                    <img src='https://firstbkf.s3.us-east-2.amazonaws.com/nuage.png' />      
                                 </div>
                                 <div>
-                                    <img src={require('../../img/nuage.png')} />               
+                                    <img src='https://firstbkf.s3.us-east-2.amazonaws.com/nuage.png' />               
                                 </div>
-                                <div>
-                                    <img src={require('../../img/nuage.png')} />                        
-                                </div>
-                                <div>
-                                    <img src={require('../../img/nuage.png')} />         
-                                </div>
-                                <div>
-                                    <img src={require('../../img/nuage.png')} />
-                                </div>
+                                
                             </Carousel>
                         </Col>
                     </Row>
@@ -137,20 +129,9 @@ class Exhib extends Component {
 
                               
                                 <div>
-                                    <img src={require('../../img/nuage.png')} />      
+                                    <img src='https://firstbkf.s3.us-east-2.amazonaws.com/nuage.png' />      
                                 </div>
-                                <div>
-                                    <img src={require('../../img/nuage.png')} />               
-                                </div>
-                                <div>
-                                    <img src={require('../../img/nuage.png')} />                        
-                                </div>
-                                <div>
-                                    <img src={require('../../img/nuage.png')} />         
-                                </div>
-                                <div>
-                                    <img src={require('../../img/nuage.png')} />
-                                </div>
+                                
                             </Carousel>
                         </Col>
                         <Col className='exhib-description' md={{ span: 4, offset: 0 }}>
@@ -195,20 +176,9 @@ class Exhib extends Component {
 
                               
                                 <div>
-                                    <img src={require('../../img/nuage.png')} />      
+                                    <img src='https://firstbkf.s3.us-east-2.amazonaws.com/nuage.png' />      
                                 </div>
-                                <div>
-                                    <img src={require('../../img/nuage.png')} />               
-                                </div>
-                                <div>
-                                    <img src={require('../../img/nuage.png')} />                        
-                                </div>
-                                <div>
-                                    <img src={require('../../img/nuage.png')} />         
-                                </div>
-                                <div>
-                                    <img src={require('../../img/nuage.png')} />
-                                </div>
+                                
                             </Carousel>
                         </Col>
                     </Row>
@@ -235,20 +205,9 @@ class Exhib extends Component {
 
                               
                                 <div>
-                                    <img src={require('../../img/nuage.png')} />      
+                                    <img src='https://firstbkf.s3.us-east-2.amazonaws.com/nuage.png' />      
                                 </div>
-                                <div>
-                                    <img src={require('../../img/nuage.png')} />               
-                                </div>
-                                <div>
-                                    <img src={require('../../img/nuage.png')} />                        
-                                </div>
-                                <div>
-                                    <img src={require('../../img/nuage.png')} />         
-                                </div>
-                                <div>
-                                    <img src={require('../../img/nuage.png')} />
-                                </div>
+                               
                             </Carousel>
                         </Col>
                         <Col className='exhib-description' md={{ span: 4, offset: 0 }}>

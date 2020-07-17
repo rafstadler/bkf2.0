@@ -24,7 +24,7 @@
 .waw-h1{
     
     font-family: MyOpen;
-    background-image: url('../../img/duducloud.gif');
+    background-image: url('https://firstbkf.s3.us-east-2.amazonaws.com/duducloud.gif');
     background-size: cover;
     background-attachment: fixed;
     padding-top: 2em;
@@ -39,7 +39,7 @@
 .waw-h1-mobile{
     
     font-family: MyOpen;
-    background-image: url('../../img/duducloud.gif');
+    background-image: url('https://firstbkf.s3.us-east-2.amazonaws.com/duducloud.gif');
     background-size: cover;
     background-attachment: fixed;
     padding-top: 2em;
@@ -105,7 +105,7 @@ font-size: 110%;
     display: inline-block;
     background-repeat: no-repeat;
     position: relative;
-    background-image: url('../../img/duducloud.gif');
+    background-image: url('https://firstbkf.s3.us-east-2.amazonaws.com/duducloud.gif');
     background-attachment: fixed;
     background-size: cover;
     -webkit-text-fill-color: transparent;

@@ -26,7 +26,7 @@
     font-family: MyOpen;
     font-size: 5em;
     
-    background-image: url('../../img/visage1.png');
+    background-image: url('https://firstbkf.s3.us-east-2.amazonaws.com/visage1.png');
     background-attachment: fixed;
     background-size: cover;
     -webkit-text-fill-color: transparent;
@@ -38,7 +38,7 @@
    writing-mode: vertical-lr;
     font-family: MyOpen;
     font-size:3em;
-    background-image: url('../../img/visage1.png');
+    background-image: url('https://firstbkf.s3.us-east-2.amazonaws.com/visage1.png');
     background-attachment: fixed;
     background-size: cover;
     -webkit-text-fill-color: transparent;
@@ -87,7 +87,7 @@
     display: inline-block;
     background-repeat: no-repeat;
     position: relative;
-    background-image: url('../../img/visage1.png');
+    background-image: url('https://firstbkf.s3.us-east-2.amazonaws.com/visage1.png');
     background-attachment: fixed;
     background-size: cover;
     -webkit-text-fill-color: transparent;

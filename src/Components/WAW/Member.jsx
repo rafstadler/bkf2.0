@@ -28,12 +28,12 @@ class Member extends Component {
             <Col onMouseEnter={this.handleMouseHover} onMouseLeave={this.handleMouseHover} className= "one-member" md={4}>
                 <h2 className='waw-h2'>{this.props.nom}</h2>
                 <AnimatedOnScroll animationIn='fadeInUpBig' animationInDuration='1500' isVisible={true}>
-                    <Image className='visu-members' src={require(`../../img/${this.props.photo}`)} fluid></Image>
+                    <Image className='visu-members' src={`https://firstbkf.s3.us-east-2.amazonaws.com/${this.props.photo}`} fluid></Image>
                 </AnimatedOnScroll>
 
 
                 {this.state.isHovering &&
-                        <div className='waw-fondateur'>
+                        <div className='waw-fondateur' style={{'position':'absolute'}}>
                             {this.props.description}
                         </div>
                 }

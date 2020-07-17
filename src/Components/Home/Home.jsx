@@ -34,7 +34,7 @@ render() {
         <div>
  
             <video autoplay="autoplay" loop="loop" muted playsinline='playsinline' className="video">
-                <source src={require('../../img/acceuilbq.mp4')} type="video/mp4"/>
+                <source src='https://firstbkf.s3.us-east-2.amazonaws.com/acceuilbq.mp4' type="video/mp4"/>
             </video>
             <div className='caption page' align='center'>
                 <SplitText  className="home-title" initialPose="exit" pose="enter" charPoses={charPoses}>Breakfast</SplitText>
