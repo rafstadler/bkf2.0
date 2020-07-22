@@ -65,7 +65,7 @@ class WAW extends Component {
                         <Col md={6}>
                             <AnimatedOnScroll animationIn='fadeInUp' animationInDuration='1200' isVisible={true}>
                                 <div>
-                                    <Image className='image-fondateur' src='https://firstbkf.s3.us-east-2.amazonaws.com/dudu.png' fluid></Image>
+                                    <Image className='image-fondateur' src='https://firstbkf.s3.us-east-2.amazonaws.com/dudu.jpg' fluid></Image>
                                 </div>
 
                             </AnimatedOnScroll>
@@ -135,7 +135,7 @@ class WAW extends Component {
                         <Member nom="Dave Kandy" description="DJ et Artiste" photo="dave.png"></Member>
                         <Member nom="Charles Offmann" description="Beatmaker" photo="charles.png"></Member>
                         <Member nom="Raphael Stadler" description="Web Designer & Développeur" photo="raf.png"></Member>
-                        <Member nom="Ludovic Garni" description="Membre fondateur" photo="dudu.png"></Member>
+                        <Member nom="Ludovic Garni" description="Membre fondateur" photo="dudu.jpg"></Member>
                         <Member nom="Emota" description="Membre fondateur" photo="emota.png"></Member>
                         <Member nom="Tchap" description="Membre fondateur" photo="tchap.png"></Member>
                    

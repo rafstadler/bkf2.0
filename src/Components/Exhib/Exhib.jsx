@@ -205,7 +205,25 @@ class Exhib extends Component {
 
                               
                                 <div>
-                                    <img src='https://firstbkf.s3.us-east-2.amazonaws.com/nuage.png' />      
+                                    <img src='https://firstbkf.s3.us-east-2.amazonaws.com/2018affiche.JPG' />      
+                                </div>
+                                <div>
+                                    <img src='https://firstbkf.s3.us-east-2.amazonaws.com/20181.JPG' />      
+                                </div>
+                                <div>
+                                    <img src='https://firstbkf.s3.us-east-2.amazonaws.com/20182.JPG' />      
+                                </div>
+                                <div>
+                                    <img src='https://firstbkf.s3.us-east-2.amazonaws.com/20183.JPG' />      
+                                </div>
+                                <div>
+                                    <img src='https://firstbkf.s3.us-east-2.amazonaws.com/20184.JPG' />      
+                                </div>
+                                <div>
+                                    <img src='https://firstbkf.s3.us-east-2.amazonaws.com/20184.JPG' />      
+                                </div>
+                                <div>
+                                    <img src='https://firstbkf.s3.us-east-2.amazonaws.com/20186.JPG' />      
                                 </div>
                                
                             </Carousel>
