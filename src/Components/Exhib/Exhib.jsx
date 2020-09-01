@@ -92,7 +92,7 @@ class Exhib extends Component {
   animationSpeed={1500}>
                                 <img className="exhib-carousel-img" src='https://firstbkf.s3.us-east-2.amazonaws.com/2018affiche.JPG' />
                                 <img className="exhib-carousel-img" src='https://firstbkf.s3.us-east-2.amazonaws.com/20181.JPG' />  
-                                <video autoplay="autoplay" loop="loop" muted className="exhib-carousel-img">
+                                <video className="exhib-carousel-img">
                                     <source src='https://firstbkf.s3.us-east-2.amazonaws.com/2018video.mp4' type="video/mp4"/>
                                 </video>
                                 <img className="exhib-carousel-img" src='https://firstbkf.s3.us-east-2.amazonaws.com/20182.JPG' />
@@ -122,7 +122,7 @@ class Exhib extends Component {
                                 <img className="exhib-carousel-img" src='https://firstbkf.s3.us-east-2.amazonaws.com/2019affiche.JPG' />
                                 <img className="exhib-carousel-img" src='https://firstbkf.s3.us-east-2.amazonaws.com/20191.JPG' />  
                                 <img className="exhib-carousel-img" src='https://firstbkf.s3.us-east-2.amazonaws.com/20192.JPG' />
-                                <video autoplay="autoplay" loop="loop" muted className="exhib-carousel-img">
+                                <video className="exhib-carousel-img">
                                     <source src='https://firstbkf.s3.us-east-2.amazonaws.com/2019video.mp4' type="video/mp4"/>
                                 </video>
                                 
@@ -163,7 +163,7 @@ class Exhib extends Component {
   animationSpeed={1500}>
                                 <img className="exhib-carousel-img" src='https://firstbkf.s3.us-east-2.amazonaws.com/2018affiche.JPG' />
                                 <img className="exhib-carousel-img" src='https://firstbkf.s3.us-east-2.amazonaws.com/20181.JPG' />  
-                                <video autoplay="autoplay" loop="loop" muted className="exhib-carousel-img">
+                                <video className="exhib-carousel-img">
                                     <source src='https://firstbkf.s3.us-east-2.amazonaws.com/2018video.mp4' type="video/mp4"/>
                                 </video>
                                 <img className="exhib-carousel-img" src='https://firstbkf.s3.us-east-2.amazonaws.com/20182.JPG' />
@@ -191,7 +191,7 @@ class Exhib extends Component {
   animationSpeed={1500}>
                                 <img className="exhib-carousel-img" src='https://firstbkf.s3.us-east-2.amazonaws.com/2018affiche.JPG' />
                                 <img className="exhib-carousel-img" src='https://firstbkf.s3.us-east-2.amazonaws.com/20181.JPG' />  
-                                <video autoplay="autoplay" loop="loop" muted className="exhib-carousel-img">
+                                <video className="exhib-carousel-img">
                                     <source src='https://firstbkf.s3.us-east-2.amazonaws.com/2018video.mp4' type="video/mp4"/>
                                 </video>
                                 <img className="exhib-carousel-img" src='https://firstbkf.s3.us-east-2.amazonaws.com/20182.JPG' />
