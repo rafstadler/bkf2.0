@@ -7,6 +7,8 @@ import AudioPlayer from "react-modular-audio-player";
 import ReactPlayer from 'react-player'
 import './Works.css'
 
+
+
 class Works extends Component {
 
 scrollToLocation = () => {
@@ -148,19 +150,8 @@ scrollToLocation = () => {
                         </Row>
                         
                         <Row className="oeuvre align-items-center">
-                            <Col className='works-description' md={{ span: 4, offset: 1 }}>
-                                <AnimatedOnScroll animationIn='fadeInUpBig' animationInDuration='1200' isVisible={true}>
-                                    <div>
-                                        <h2 className='works-h2'>-Triptyque de Nuages-</h2>
-                                        <h2 className='works-h2'>- Ludovic 2019 -</h2>
-                                        <div className='works-oeuvre'>
-                                            dj cioqjd cxiojze sdic zeiucd xzeuidhs cxieodjs cpxiuoehd vciujh rdiufh czeiukqshdf xiuh eiudhsc xizeldkushd xi odijzojd oi coij eoij oiehjz iu hfviuh zeiuh fiu ziedj xoqhzuzidjh iued ci eiv hieuhvkjndckjsnck zej o nci nc ke ck eic kuhjsb vcij;hs nidkjhcnx kq;ujhkj d ukmudj nduis kjdicu xuskd yux kzjqsdydjxn sjdjs fndxuhqjsh sudx  zsij xqks jd xizks.
-                                        </div>
-
-                                    </div>
-                                </AnimatedOnScroll>
-                            </Col>
-                            <Col md={6}>
+                           
+                            <Col md={{ span: 6, offset: 3 }}>
                                 <AnimatedOnScroll animationIn='fadeInUp' animationInDuration='1200' isVisible={true}>
                                     <div style={{'padding':'3em'}}>
                                         <Image className='visu' src='https://firstbkf.s3.us-east-2.amazonaws.com/nuage.png' fluid></Image>
