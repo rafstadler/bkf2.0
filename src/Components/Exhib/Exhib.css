@@ -127,6 +127,13 @@
     
 }
 
+.exhib-carousel-img-portrait {
+    max-width: 90%;
+    max-height: 60%;
+    border-radius: 3em;
+    
+}
+
 .exhib-h2 {
     font-family: MyOpen;
     display: flex;

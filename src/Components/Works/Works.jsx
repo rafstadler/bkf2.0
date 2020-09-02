@@ -148,20 +148,7 @@ scrollToLocation = () => {
                                 <h1 className='works-h1-mobile d-sm-none' align='center'>PAINTING</h1>
                             </Col>
                         </Row>
-                        
-                        <Row className="oeuvre align-items-center">
-                           
-                            <Col md={{ span: 6, offset: 3 }}>
-                                <AnimatedOnScroll animationIn='fadeInUp' animationInDuration='1200' isVisible={true}>
-                                    <div style={{'padding':'3em'}}>
-                                        <Image className='visu' src='https://firstbkf.s3.us-east-2.amazonaws.com/nuage.png' fluid></Image>
-                                    </div>
-
-                                </AnimatedOnScroll>
-                            </Col>
-
-
-                        </Row>
+                    
 
                         <Row className="oeuvre align-items-center">
                             

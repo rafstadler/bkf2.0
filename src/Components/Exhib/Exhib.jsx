@@ -11,6 +11,9 @@ import './Exhib.css';
 import Carousel, { autoplayPlugin,slidesToShowPlugin } from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';
 
+import {BrowserView,MobileView,isBrowser,isMobile} from "react-device-detect";
+
+
 class Exhib extends Component {
 
     constructor(props){
@@ -90,17 +93,18 @@ class Exhib extends Component {
 
                             <Carousel slidesPerPage={1} centered infinite autoPlay={6000}
   animationSpeed={1500}>
-                                <img className="exhib-carousel-img" src='https://firstbkf.s3.us-east-2.amazonaws.com/2018affiche.JPG' />
-                                <img className="exhib-carousel-img" src='https://firstbkf.s3.us-east-2.amazonaws.com/20181.JPG' />  
-                                <video className="exhib-carousel-img">
+                                <img className="exhib-carousel-img-portrait" src='https://firstbkf.s3.us-east-2.amazonaws.com/2018affiche.JPG' />
+                                <img className="exhib-carousel-img" src='https://firstbkf.s3.us-east-2.amazonaws.com/20181.JPG' /> 
+                                {isBrowser ? <video autoplay="autoplay" loop="loop" muted className="exhib-carousel-img-portrait">
                                     <source src='https://firstbkf.s3.us-east-2.amazonaws.com/2018video.mp4' type="video/mp4"/>
-                                </video>
+                                </video> : null}
+                                
                                 <img className="exhib-carousel-img" src='https://firstbkf.s3.us-east-2.amazonaws.com/20182.JPG' />
                                 <img className="exhib-carousel-img" src='https://firstbkf.s3.us-east-2.amazonaws.com/20183.JPG' />
                                 <img className="exhib-carousel-img" src='https://firstbkf.s3.us-east-2.amazonaws.com/20184.JPG' />  
                                 <img className="exhib-carousel-img" src='https://firstbkf.s3.us-east-2.amazonaws.com/20185.JPG' />  
                                 <img className="exhib-carousel-img" src='https://firstbkf.s3.us-east-2.amazonaws.com/20186.JPG' />
-                                <img className="exhib-carousel-img" src='https://firstbkf.s3.us-east-2.amazonaws.com/20187.JPG' />
+                                <img className="exhib-carousel-img-portrait" src='https://firstbkf.s3.us-east-2.amazonaws.com/20187.JPG' />
                             </Carousel>
                         </Col>
                     </Row>
@@ -119,12 +123,12 @@ class Exhib extends Component {
                             <Carousel slidesPerPage={1} centered infinite autoPlay={6000}
   animationSpeed={1500}>
                                 
-                                <img className="exhib-carousel-img" src='https://firstbkf.s3.us-east-2.amazonaws.com/2019affiche.JPG' />
-                                <img className="exhib-carousel-img" src='https://firstbkf.s3.us-east-2.amazonaws.com/20191.JPG' />  
+                                <img className="exhib-carousel-img-portrait" src='https://firstbkf.s3.us-east-2.amazonaws.com/2019affiche.JPG' />
+                                <img className="exhib-carousel-img-portrait" src='https://firstbkf.s3.us-east-2.amazonaws.com/20191.JPG' />  
                                 <img className="exhib-carousel-img" src='https://firstbkf.s3.us-east-2.amazonaws.com/20192.JPG' />
-                                <video className="exhib-carousel-img">
+                                {isBrowser ? <video autoplay="autoplay" loop="loop" muted className="exhib-carousel-img">
                                     <source src='https://firstbkf.s3.us-east-2.amazonaws.com/2019video.mp4' type="video/mp4"/>
-                                </video>
+                                </video> : null}
                                 
                             </Carousel>
                         </Col>
@@ -161,17 +165,18 @@ class Exhib extends Component {
 
                             <Carousel slidesPerPage={1} centered infinite autoPlay={6000}
   animationSpeed={1500}>
-                                <img className="exhib-carousel-img" src='https://firstbkf.s3.us-east-2.amazonaws.com/2018affiche.JPG' />
-                                <img className="exhib-carousel-img" src='https://firstbkf.s3.us-east-2.amazonaws.com/20181.JPG' />  
-                                <video className="exhib-carousel-img">
+                                <img className="exhib-carousel-img-portrait" src='https://firstbkf.s3.us-east-2.amazonaws.com/2018affiche.JPG' />
+                                <img className="exhib-carousel-img" src='https://firstbkf.s3.us-east-2.amazonaws.com/20181.JPG' /> 
+                                {isBrowser ? <video autoplay="autoplay" loop="loop" muted className="exhib-carousel-img-portrait">
                                     <source src='https://firstbkf.s3.us-east-2.amazonaws.com/2018video.mp4' type="video/mp4"/>
-                                </video>
+                                </video> : null}
+                                
                                 <img className="exhib-carousel-img" src='https://firstbkf.s3.us-east-2.amazonaws.com/20182.JPG' />
                                 <img className="exhib-carousel-img" src='https://firstbkf.s3.us-east-2.amazonaws.com/20183.JPG' />
                                 <img className="exhib-carousel-img" src='https://firstbkf.s3.us-east-2.amazonaws.com/20184.JPG' />  
                                 <img className="exhib-carousel-img" src='https://firstbkf.s3.us-east-2.amazonaws.com/20185.JPG' />  
                                 <img className="exhib-carousel-img" src='https://firstbkf.s3.us-east-2.amazonaws.com/20186.JPG' />
-                                <img className="exhib-carousel-img" src='https://firstbkf.s3.us-east-2.amazonaws.com/20187.JPG' />
+                                <img className="exhib-carousel-img-portrait" src='https://firstbkf.s3.us-east-2.amazonaws.com/20187.JPG' />
                             </Carousel>
                         </Col>
                     </Row>
@@ -189,17 +194,18 @@ class Exhib extends Component {
 
                             <Carousel slidesPerPage={1} centered infinite autoPlay={6000}
   animationSpeed={1500}>
-                                <img className="exhib-carousel-img" src='https://firstbkf.s3.us-east-2.amazonaws.com/2018affiche.JPG' />
-                                <img className="exhib-carousel-img" src='https://firstbkf.s3.us-east-2.amazonaws.com/20181.JPG' />  
-                                <video className="exhib-carousel-img">
+                                <img className="exhib-carousel-img-portrait" src='https://firstbkf.s3.us-east-2.amazonaws.com/2018affiche.JPG' />
+                                <img className="exhib-carousel-img" src='https://firstbkf.s3.us-east-2.amazonaws.com/20181.JPG' /> 
+                                {isBrowser ? <video autoplay="autoplay" loop="loop" muted className="exhib-carousel-img-portrait">
                                     <source src='https://firstbkf.s3.us-east-2.amazonaws.com/2018video.mp4' type="video/mp4"/>
-                                </video>
+                                </video> : null}
+                                
                                 <img className="exhib-carousel-img" src='https://firstbkf.s3.us-east-2.amazonaws.com/20182.JPG' />
                                 <img className="exhib-carousel-img" src='https://firstbkf.s3.us-east-2.amazonaws.com/20183.JPG' />
                                 <img className="exhib-carousel-img" src='https://firstbkf.s3.us-east-2.amazonaws.com/20184.JPG' />  
                                 <img className="exhib-carousel-img" src='https://firstbkf.s3.us-east-2.amazonaws.com/20185.JPG' />  
                                 <img className="exhib-carousel-img" src='https://firstbkf.s3.us-east-2.amazonaws.com/20186.JPG' />
-                                <img className="exhib-carousel-img" src='https://firstbkf.s3.us-east-2.amazonaws.com/20187.JPG' />
+                                <img className="exhib-carousel-img-portrait" src='https://firstbkf.s3.us-east-2.amazonaws.com/20187.JPG' />
                             </Carousel>
 
 
