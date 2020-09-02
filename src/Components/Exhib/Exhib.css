@@ -124,12 +124,18 @@
     max-width: 90%;
     max-height: 90%;
     border-radius: 3em;
+    width: auto;
+    height: auto;
+    display: block;
     
 }
 
 .exhib-carousel-img-portrait {
     max-width: 90%;
     max-height: 60%;
+    width: auto;
+    height: auto;
+    display: block;
     border-radius: 3em;
     
 }
