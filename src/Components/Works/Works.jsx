@@ -6,7 +6,9 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 import AudioPlayer from "react-modular-audio-player";
 import ReactPlayer from 'react-player'
 import './Works.css'
-
+import Carousel, { autoplayPlugin,slidesToShowPlugin } from '@brainhubeu/react-carousel';
+import '@brainhubeu/react-carousel/lib/style.css';
+import {BrowserView,MobileView,isBrowser,isMobile} from "react-device-detect";
 
 
 class Works extends Component {
@@ -167,9 +169,18 @@ scrollToLocation = () => {
 
                             <Col  md={{ span: 6, offset: 1 }}>
                                 <AnimatedOnScroll animationIn='fadeInUp' animationInDuration='1200' isVisible={true}>
-                                    <div style={{'padding':'3em'}}>
-                                        <Image className='visu' src='https://firstbkf.s3.us-east-2.amazonaws.com/nuage.png' fluid></Image>
-                                    </div>
+                                    <Carousel slidesPerPage={1} centered infinite autoPlay={6000}
+  animationSpeed={1500}>
+                                
+                                <img className="exhib-carousel-img-portrait" src='https://firstbkf.s3.us-east-2.amazonaws.com/dudupaint2.jpg' />
+                                <img className="exhib-carousel-img" src='https://firstbkf.s3.us-east-2.amazonaws.com/dudupaint3.jpg' />
+                                <img className="exhib-carousel-img-portrait" src='https://firstbkf.s3.us-east-2.amazonaws.com/dudupaint4.jpg' />  
+                                <img className="exhib-carousel-img-portrait" src='https://firstbkf.s3.us-east-2.amazonaws.com/dudupaint5.jpg' />  
+                                <img className="exhib-carousel-img-portrait" src='https://firstbkf.s3.us-east-2.amazonaws.com/dudupaint6.jpg' />
+                                <img className="exhib-carousel-img-portrait" src='https://firstbkf.s3.us-east-2.amazonaws.com/dudupaint7.jpg' />
+                                <img className="exhib-carousel-img-portrait" src='https://firstbkf.s3.us-east-2.amazonaws.com/dudupaint8.jpg' /> 
+                                <img className="exhib-carousel-img-portrait" src='https://firstbkf.s3.us-east-2.amazonaws.com/dudupaint1.jpg' />
+                            </Carousel>
 
                                 </AnimatedOnScroll>
                             </Col>
