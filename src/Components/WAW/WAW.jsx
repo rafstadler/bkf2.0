@@ -21,8 +21,8 @@ class WAW extends Component {
                 <Container align='center' fluid>
                     <Row>
                         <Col className='test'>
-                            <h1 className='waw-h1  d-none d-sm-block' align='center'>BREAKFAST</h1>
-                            <h1 className='waw-h1-mobile d-sm-none' align='center'>BREAKFAST</h1>
+                            <h1 className='waw-h1  d-none d-sm-block' align='center'>BREAKFAST<h3>SQUAD</h3></h1>
+                            <h1 className='waw-h1-mobile d-sm-none' align='center'>BREAKFAST<h3>SQUAD</h3></h1>
 
 
                         </Col>
@@ -39,7 +39,7 @@ class WAW extends Component {
                                 Bkf (abréviation de Breakfast) est <b className='waw-b'> une atmosphère </b> née de plusieurs lendemains de soirées. Nous avons pris l'habitude de boire tous ensemble une tasse de thé en fin de soirée/début de journée. Un moment de calme, de partage et de réflexion autour de nos projets et nos avenirs. <b className='waw-b'>Ce rituel</b> on le nomme aujourd’hui comme étant le « Breakfast ». Pour nous, il est devenu nécessaire de le <b className='waw-b'>partager</b> au quotidien.
                                 <br/>
                                 <br/>
-                                Nous partageons ce <b className='waw-b'> mode de vie</b> à travers notre marque de vêtements, notre façon d’être et <b className='waw-b'>nos créations</b> qu’elles soient musicales ou artistiques.
+        Nous partageons ce <b className='waw-b'> mode de vie</b> à travers notre marque de vêtements, notre façon d’être et <b className='waw-b'>nos créations</b> qu’elles soient musicales ou artistiques.
                             </div>
                             </AnimatedOnScroll>
                         </Col>
@@ -47,7 +47,7 @@ class WAW extends Component {
                     </Row>
                     
 
-                    <Row>
+                    {/*<Row>
                         <Col className='test'>
                             <h1 className='waw-h1 d-none d-sm-block' align='center'>FOUNDERS</h1>
                             <h1 className='waw-h1-mobile d-sm-none' align='center'>FOUNDERS</h1>
@@ -120,12 +120,12 @@ class WAW extends Component {
 
                             </AnimatedOnScroll>
                         </Col>
-                    </Row>
+                    </Row>*/}
 
                     <Row>
                         <Col className='test'>
-                            <h1 className='waw-h1 d-none d-sm-block' align='center'>MEMBERS</h1>
-                            <h1 className='waw-h1-mobile d-sm-none' align='center'>MEMBERS</h1>
+                            <h1 className='waw-h1 d-none d-sm-block' align='center'>MEMBRES</h1>
+                            <h1 className='waw-h1-mobile d-sm-none' align='center'>MEMBRES</h1>
                         </Col>
                     </Row>
 

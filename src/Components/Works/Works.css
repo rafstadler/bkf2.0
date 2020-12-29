@@ -25,7 +25,7 @@
 .works-h1-mobile{
     letter-spacing: 0.1em;
     font-family: MyOpen;
-    background-image: url('https://firstbkf.s3.us-east-2.amazonaws.com/nude.jpg');
+    background-image: url('https://firstbkf.s3.us-east-2.amazonaws.com/salle.png');
     background-attachment: fixed;
     background-size: cover;
     padding-top: 2em;
@@ -38,7 +38,7 @@
     letter-spacing: 0.1em;
     font-family: MyOpen;
     font-size: 500%;
-    background-image: url('https://firstbkf.s3.us-east-2.amazonaws.com/nude.jpg');
+    background-image: url('./test3.jpg');
     background-attachment: fixed;
     background-size: cover;
     padding-top: 2em;
@@ -72,7 +72,7 @@
 }
 
 .menu-link {
-    background-image: url('https://firstbkf.s3.us-east-2.amazonaws.com/nude.jpg');
+    background-image: url('https://firstbkf.s3.us-east-2.amazonaws.com/salle.png');
     background-attachment: fixed;
     background-size: cover;
     padding-top: 1.5em;
@@ -192,7 +192,7 @@
     color: white;
    
 
-    background-image: url('https://firstbkf.s3.us-east-2.amazonaws.com/nude.jpg'); 
+    background-image: url('https://firstbkf.s3.us-east-2.amazonaws.com/salle.png'); 
    background-attachment: scroll x;
    
     font-size: 1.1em;

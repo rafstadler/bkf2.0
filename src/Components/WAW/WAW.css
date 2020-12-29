@@ -132,6 +132,8 @@ font-size: 110%;
 .visu-members {
     border-radius: 2em;
     padding: 1em;
+    height: 400px;
+    width: 400px;
     
 }
 

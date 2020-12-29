@@ -11,10 +11,14 @@ import Works from './Components/Works/Works';
 import Exhib from './Components/Exhib/Exhib';
 import Contact from './Components/Contact/Contact';
 import ScrollToTop from './Components/ScrollToTop';
+
+
+
 import styled from "styled-components";
 
 
 class App extends Component {
+
 
     constructor(props) {
         super(props);
@@ -24,6 +28,8 @@ class App extends Component {
         }
 
     }
+
+    
 
     pageCallback = (page) => {
         this.setState({page: page});
@@ -39,6 +45,19 @@ class App extends Component {
                            
                             <Navbar className={this.state.page.pathname==="/" ? 'transparent-nav' : 'white-nav'} fixed='top' align='center'>
                                 
+                               {/* <Container fluid>
+                                
+                                
+                                <Col sm={12} className='d-none d-sm-none d-lg-block'><Link to='/' className={this.state.page.pathname==="/" ? 'nav-brand-white' : 'nav-brand' }>&nbsp;Breakfast&nbsp;</Link></Col>
+                                
+                                <Col sm={8} className='d-lg-none d-sm-block'><Link to='/' className={this.state.page.pathname==="/" ? 'nav-brand-white' : 'nav-brand' }>&nbsp;Breakfast&nbsp;</Link></Col>
+                                        
+                                      
+                                  </Container>*/}
+                                
+                                <Col sm={2} className='d-none d-sm-none d-lg-block'><Link to='/who_are_we' className={this.state.page.pathname==="/" ? 'nav-link-white' : 'nav-link' } style={this.state.page.pathname==="/who_are_we" ? {'text-decoration':'line-through underline'} : {}}>Collectif</Link></Col>
+                                
+                                <Col sm={2} className='d-none d-sm-none d-lg-block'><Link to='/exhib' className={this.state.page.pathname==="/" ? 'nav-link-white' : 'nav-link' } style={this.state.page.pathname==="/exhib" ? {'text-decoration':'line-through underline'} : {}}> Legacy </Link></Col>
                                 <Container fluid>
                                 
                                 
@@ -48,17 +67,12 @@ class App extends Component {
                                         
                                       
                                   </Container>
+                                <Col sm={2} className='d-none d-sm-none d-lg-block'><Link to='/works#clothes' className={this.state.page.pathname==="/" ? 'nav-link-white' : 'nav-link' } style={this.state.page.pathname==="/works" ? {'text-decoration':'line-through underline'} : {}}> Studio </Link></Col>
                                 
-                               
-                   
-                                <Col sm={2} className='d-none d-sm-none d-lg-block'><Link to='/works#clothes' className={this.state.page.pathname==="/" ? 'nav-link-white' : 'nav-link' } style={this.state.page.pathname==="/works" ? {'text-decoration':'line-through underline'} : {}}> Our Work </Link></Col>
-                                
-                                <Col sm={2} className='d-none d-sm-none d-lg-block'><Link to='/exhib' className={this.state.page.pathname==="/" ? 'nav-link-white' : 'nav-link' } style={this.state.page.pathname==="/exhib" ? {'text-decoration':'line-through underline'} : {}}> Exhibitions </Link></Col>
-                                <Col sm={2} className='d-none d-sm-none d-lg-block'><Link to='/who_are_we' className={this.state.page.pathname==="/" ? 'nav-link-white' : 'nav-link' } style={this.state.page.pathname==="/who_are_we" ? {'text-decoration':'line-through underline'} : {}}>Who Are We</Link></Col>
-                                <Col sm={2} className='d-none d-sm-none d-lg-block'><Link to='/contact' className={this.state.page.pathname==="/" ? 'nav-link-white' : 'nav-link' } style={this.state.page.pathname==="/contact" ? {'text-decoration':'line-through underline'} : {}}> Contacts </Link></Col>
-                                <Col sm={2} className='d-none d-sm-none d-lg-block'>
+                                <Col sm={2} className='d-none d-sm-none d-lg-block'><Link to='/contact' className={this.state.page.pathname==="/" ? 'nav-link-white' : 'nav-link' } style={this.state.page.pathname==="/contact" ? {'text-decoration':'line-through underline'} : {}}> Contact </Link></Col>
+                                {/*<Col sm={2} className='d-none d-sm-none d-lg-block'>
                                     {isBrowser ? <a target="_blank" rel="noopener noreferrer" href='https://www.instagram.com/breakfast_paris/' className={this.state.page.pathname==="/" ? 'nav-link-white' : 'nav-link' } align='center' >Instagram</a> : <a href='instagram://user?username=breakfast_paris' className={this.state.page.pathname==="/" ? 'nav-link-white' : 'nav-link' } align='center' style={{'color':'black'}}>Instagram</a>}
-                                </Col>
+                                </Col>*/}
                             
 
 

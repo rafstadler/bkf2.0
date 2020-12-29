@@ -1,9 +1,14 @@
 .white-nav{
-   background-color: white
+   background-color: white;
+   display: flex;
+    justify-content: center;
+
 }
 
 .transparent-nav{
-    background-color: transparent
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
 }
 
 .nav-brand{
@@ -35,7 +40,9 @@
     color:black;
     
     font-size: 1.2em;
-    font-family: MyOpen    
+    font-family: MyOpen;
+    padding: 0%;
+    margin: 0%;
 }
 
 .nav-link-white{  
